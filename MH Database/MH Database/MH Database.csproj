@@ -51,7 +51,7 @@
     <StartupObject>MH_Database.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Icône.ico</ApplicationIcon>
+    <ApplicationIcon>Pictures\Icône.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -123,7 +123,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Icône.ico" />
+    <Content Include="Pictures\Icône.ico" />
     <Content Include="Pictures\Flags\France.png" />
     <Content Include="Pictures\Flags\US.png" />
   </ItemGroup>
