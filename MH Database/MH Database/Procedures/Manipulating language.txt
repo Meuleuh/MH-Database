@@ -1,0 +1,21 @@
+﻿******************************************
+* THIS PROCEDURE MUST NEVER BE NEGLECTED *
+******************************************
+
+Upon doing the following modifications : Adding / modifying / deleting a language from the software
+Those files must be modified:
+- MultiLang.cs (Class File)
+- MultiLangButton.cs (Class File)
+
+---------------------------------------------------------------
+| Those are the modification that must be done in every files |
+---------------------------------------------------------------
+MultiLang.cs:
+	- The lang that is affected must be added / modified / deleted from the starting variables (Note 1)
+	- The lang must be added / modified / deleted in the "internal MultiLang(string everyLang)" using the "everyLang" variable as value (Note 2)
+	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLang()" using individuals strings and the value must be assigned with his own variable (Note 3)
+	- The lang must be added / modified / deleted in the "changeEveryLang" function and his value must be set as the "everyLang" parameter (Note 4)
+
+MultiLangButton.cs:
+	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 5)
+	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 6)
