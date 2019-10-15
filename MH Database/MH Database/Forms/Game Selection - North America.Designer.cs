@@ -29,34 +29,48 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game_Selection));
-            this.button1 = new System.Windows.Forms.Button();
+            this.groupFirstGen = new System.Windows.Forms.GroupBox();
+            this.gameMonsterHunter = new System.Windows.Forms.Button();
+            this.groupFirstGen.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // groupFirstGen
             // 
-            this.button1.Location = new System.Drawing.Point(25, 32);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.groupFirstGen.Controls.Add(this.gameMonsterHunter);
+            this.groupFirstGen.Location = new System.Drawing.Point(13, 13);
+            this.groupFirstGen.Name = "groupFirstGen";
+            this.groupFirstGen.Size = new System.Drawing.Size(775, 100);
+            this.groupFirstGen.TabIndex = 0;
+            this.groupFirstGen.TabStop = false;
+            this.groupFirstGen.Text = "groupFirstGen";
+            // 
+            // gameMonsterHunter
+            // 
+            this.gameMonsterHunter.Location = new System.Drawing.Point(7, 20);
+            this.gameMonsterHunter.Name = "gameMonsterHunter";
+            this.gameMonsterHunter.Size = new System.Drawing.Size(120, 23);
+            this.gameMonsterHunter.TabIndex = 0;
+            this.gameMonsterHunter.Text = "gameMonsterHunter";
+            this.gameMonsterHunter.UseVisualStyleBackColor = true;
             // 
             // Game_Selection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.groupFirstGen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Game_Selection";
             this.Text = "Game Selection";
             this.Load += new System.EventHandler(this.Game_Selection_Load);
+            this.groupFirstGen.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.GroupBox groupFirstGen;
+        private System.Windows.Forms.Button gameMonsterHunter;
     }
 }

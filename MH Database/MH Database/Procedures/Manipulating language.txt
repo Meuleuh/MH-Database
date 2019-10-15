@@ -4,8 +4,9 @@
 
 Upon doing the following modifications : Adding / modifying / deleting a language from the software
 Those files must be modified:
-- MultiLang.cs (Class File)
-- MultiLangButton.cs (Class File)
+- MultiLang.cs.........(Class File)
+- MultiLangButton.cs...(Class File)
+- MultiLangGroupBox.cs.(Class File)
 
 ---------------------------------------------------------------
 | Those are the modification that must be done in every files |
@@ -19,3 +20,7 @@ MultiLang.cs:
 MultiLangButton.cs:
 	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 5)
 	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 6)
+
+MultiLangGroupBox.cs:
+	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 7)
+	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 8)

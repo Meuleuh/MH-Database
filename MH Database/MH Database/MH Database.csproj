@@ -68,12 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\MultiLang.cs" />
+    <Compile Include="Classes\MultiLangGroupBox.cs" />
     <Compile Include="Classes\MultiLangButton.cs" />
-    <Compile Include="Forms\Game Selection.cs">
+    <Compile Include="Forms\Game Selection - North America.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Game Selection.Designer.cs">
-      <DependentUpon>Game Selection.cs</DependentUpon>
+    <Compile Include="Forms\Game Selection - North America.Designer.cs">
+      <DependentUpon>Game Selection - North America.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Language Selection.cs">
       <SubType>Form</SubType>
@@ -83,8 +84,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\Game Selection.resx">
-      <DependentUpon>Game Selection.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Game Selection - North America.resx">
+      <DependentUpon>Game Selection - North America.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Language Selection.resx">
       <DependentUpon>Language Selection.cs</DependentUpon>
