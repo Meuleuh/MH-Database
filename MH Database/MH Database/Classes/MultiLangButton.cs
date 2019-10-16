@@ -27,6 +27,11 @@ namespace MH_Database.Classes
             displayText.fr = fr;
             displayText.en = en;
         }
+        internal MultiLangButton(Button button, MultiLang multiLang)
+        {
+            linkedButton = button;
+            displayText = multiLang;
+        }
         internal void DisplayLang(string langToDisplay) //Manipulating language procedure - Note 6
         {
             if (langToDisplay == "fr")

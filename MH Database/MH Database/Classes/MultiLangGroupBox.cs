@@ -10,22 +10,27 @@ namespace MH_Database.Classes
     class MultiLangGroupBox
     {
         internal MultiLang displayText = new MultiLang();
-        internal Button linkedGroupBox = null;
-        internal MultiLangGroupBox(Button groupBox)
+        internal GroupBox linkedGroupBox = new GroupBox();
+        internal MultiLangGroupBox(GroupBox groupBox)
         {
             linkedGroupBox = groupBox;
             displayText.ChangeEveryLang("#_MISSING_TRANSLATION_#");
         }
-        internal MultiLangGroupBox(Button groupBox, string everyLang)
+        internal MultiLangGroupBox(GroupBox groupBox, string everyLang)
         {
             linkedGroupBox = groupBox;
             displayText.ChangeEveryLang(everyLang);
         }
-        internal MultiLangGroupBox(Button groupBox, string fr, string en) //Manipulating language procedure - Note 7
+        internal MultiLangGroupBox(GroupBox groupBox, string fr, string en) //Manipulating language procedure - Note 7
         {
             linkedGroupBox = groupBox;
             displayText.fr = fr;
             displayText.en = en;
+        }
+        internal MultiLangGroupBox(GroupBox groupBox, MultiLang multiLang)
+        {
+            linkedGroupBox = groupBox;
+            displayText = multiLang;
         }
         internal void DisplayLang(string langToDisplay) //Manipulating language procedure - Note 8
         {

@@ -84,6 +84,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ressources Files\Lang\Forms Components\Buttons.cs" />
+    <Compile Include="Ressources Files\Lang\Forms Components\Group Box.cs" />
     <EmbeddedResource Include="Forms\Game Selection - North America.resx">
       <DependentUpon>Game Selection - North America.cs</DependentUpon>
     </EmbeddedResource>

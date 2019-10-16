@@ -7,6 +7,8 @@ Those files must be modified:
 - MultiLang.cs.........(Class File)
 - MultiLangButton.cs...(Class File)
 - MultiLangGroupBox.cs.(Class File)
+- Buttons.cs...........(Ressources Files / Lang File)
+- Group Box.cs.........(Ressources Files / Lang File)
 
 ---------------------------------------------------------------
 | Those are the modification that must be done in every files |
@@ -24,3 +26,9 @@ MultiLangButton.cs:
 MultiLangGroupBox.cs:
 	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 7)
 	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 8)
+
+Button.cs:
+	- The lang must be added / modified / deleted in every individual object in order to make it avaible to be used later in every language (No note since it affect the whole file)
+
+Group Box.cs:
+	- The lang must be added / modified / deleted in every individual object in order to make it avaible to be used later in every language (No note since it affect the whole file)

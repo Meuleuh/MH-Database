@@ -15,7 +15,8 @@ namespace MH_Database
             Application.SetCompatibleTextRenderingDefault(false);
             Language_Selection language_Selection = new Language_Selection();
             Application.Run(language_Selection);
-            Application.Run(new Game_Selection(language_Selection.lang));
+            Game_Selection game_Selection = new Game_Selection(language_Selection.lang);
+            Application.Run(game_Selection);
         }
     }
 }
