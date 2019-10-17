@@ -9,6 +9,7 @@ Those files must be modified:
 - MultiLangGroupBox.cs.(Class File)
 - Buttons.cs...........(Ressources Files / Lang File)
 - Group Box.cs.........(Ressources Files / Lang File)
+- MultiLangWeapon.cs...(Class File)
 
 ---------------------------------------------------------------
 | Those are the modification that must be done in every files |
@@ -17,18 +18,28 @@ MultiLang.cs:
 	- The lang that is affected must be added / modified / deleted from the starting variables (Note 1)
 	- The lang must be added / modified / deleted in the "internal MultiLang(string everyLang)" using the "everyLang" variable as value (Note 2)
 	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLang()" using individuals strings and the value must be assigned with his own variable (Note 3)
-	- The lang must be added / modified / deleted in the "changeEveryLang" function and his value must be set as the "everyLang" parameter (Note 4)
+	- The lang must be added / modified / deleted in the "ChangeNames" function and his value must be set as the "everyLang" variable (Note 4)
+	- The lang must be added / modified / deleted in the "ChangeNames" function and his value must be set as its own variable (Note 5)
 
 MultiLangButton.cs:
-	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 5)
-	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 6)
+	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 1)
+	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 2)
 
 MultiLangGroupBox.cs:
-	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 7)
-	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 8)
+	- The lang must be added / modified / deleted in the individual declarations in the "internal MultiLangButton()" using individuals strings and the value must be assigned with his own variable (Note 1)
+	- The lang must be added / modified / deleted in the "displayLang()" "if" statements to ensure the possibility of using the selected lang and the "Text" value must be set to the corresponding lang (Note 2)
 
 Button.cs:
 	- The lang must be added / modified / deleted in every individual object in order to make it avaible to be used later in every language (No note since it affect the whole file)
 
 Group Box.cs:
 	- The lang must be added / modified / deleted in every individual object in order to make it avaible to be used later in every language (No note since it affect the whole file)
+
+MultiLangWeapon.cs:
+	- The lang that is affected must be added / modified / deleted from the starting variables (Note 1)
+	- The lang that is affected must be added / modified / deleted to the general declaration and the variable "allLangTier" must be set as all values (Note 2)
+	- The lang that is affected must be added / modified / deleted to the lang generics declarations and their own setting must be set to each value of their array (Note 3)
+	- The lang that is affected must be added / modified / deleted to the lang specific tiers declaration and their own setting must be corresponding to the array received in input (Note 4)
+	- The lang that is affected must be added / modified / deleted to the generic "ChangeNames" procedure and the variable "allLangTier" must be set to all values (Note 5)
+	- The lang that is affected must be added / modified / deleted to the lang generic "ChangeNames" procedure and their own setting must be set to each value of their array (Note 6)
+	- The lang that is affected must be added / modified / deleted to the lang specific tiers "ChangeNames" procedure and their own setting must be corresponding to the array received in input (Note 7)

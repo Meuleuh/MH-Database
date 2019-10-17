@@ -18,18 +18,21 @@ namespace MH_Database.Classes
         }
         internal MultiLang(string everyLang) //Manipulating language procedure - Note 2
         {
-            fr = everyLang;
-            en = everyLang;
+            ChangeNames(everyLang);
         }
         internal MultiLang(string fr, string en) //Manipulating language procedure - Note 3
         {
-            this.fr = fr;
-            this.en = en;
+            ChangeNames(fr, en);
         }
-        internal void ChangeEveryLang(string everyLang) //Manipulating language procedure - Note 4
+        internal void ChangeNames(string everyLang) //Manipulating language procedure - Note 4
         {
             fr = everyLang;
             en = everyLang;
+        }
+        internal void ChangeNames(string fr, string en) //Manipulating language procedure - Note 5
+        {
+            this.fr = fr;
+            this.en = en;
         }
     }
 }

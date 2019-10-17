@@ -70,6 +70,7 @@
     <Compile Include="Classes\MultiLang.cs" />
     <Compile Include="Classes\MultiLangGroupBox.cs" />
     <Compile Include="Classes\MultiLangButton.cs" />
+    <Compile Include="Classes\MultiLangWeapon.cs" />
     <Compile Include="Forms\Game Selection - North America.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +145,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ressources Files\Lang\Game Elements\Weapons\Great Sword\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
