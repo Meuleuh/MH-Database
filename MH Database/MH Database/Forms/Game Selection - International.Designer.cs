@@ -1,6 +1,6 @@
 ﻿namespace MH_Database
 {
-    partial class Game_Selection
+    partial class Game_Selection_International
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game_Selection));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game_Selection_International));
             this.gbFirstGen = new System.Windows.Forms.GroupBox();
             this.bGameMonsterHunter = new System.Windows.Forms.Button();
             this.gbSecondGen = new System.Windows.Forms.GroupBox();

@@ -11,7 +11,7 @@ using MH_Database.Classes;
 
 namespace MH_Database
 {
-    public partial class Game_Selection : Form
+    public partial class Game_Selection_International : Form
     {
         public string game = "\0";
         readonly string selected_language = "\0";
@@ -27,7 +27,7 @@ namespace MH_Database
         readonly MultiLangGroupBox mgbFirstGen;
         readonly MultiLangGroupBox mgbSecondGen;
         readonly MultiLangGroupBox mgbThirdGen;
-        public Game_Selection(string selected_language)
+        public Game_Selection_International(string selected_language)
         {
             InitializeComponent();
             this.selected_language = selected_language;
