@@ -17,7 +17,7 @@ namespace MH_Database
             Application.Run(language_Selection);
             if (language_Selection.lang == "jp")
             {
-                //Application.Run(game_Selection);
+               //Application.Run(game_Selection);
             }
             else if (language_Selection.lang == "cn")
             {
