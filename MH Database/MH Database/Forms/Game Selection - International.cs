@@ -60,22 +60,22 @@ namespace MH_Database
             mgbThirdGen.DisplayLang(selected_language);
         }
 
-        private void GameMonsterHunter_Click(object sender, EventArgs e)
+        private void bGameMonsterHunter_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void GameMonsterHunterFreedom2_Click(object sender, EventArgs e)
+        private void bGameMonsterHunterFreedom2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void GameMonsterHunter3_Click(object sender, EventArgs e)
+        private void bGameMonsterHunter3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void GameMonsterHunter3U_Click(object sender, EventArgs e)
+        private void bGameMonsterHunter3U_Click(object sender, EventArgs e)
         {
 
         }

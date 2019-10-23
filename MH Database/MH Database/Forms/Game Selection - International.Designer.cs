@@ -41,78 +41,78 @@
             this.gbThirdGen.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupFirstGen
+            // gbFirstGen
             // 
             this.gbFirstGen.Controls.Add(this.bGameMonsterHunter);
             this.gbFirstGen.Location = new System.Drawing.Point(13, 13);
-            this.gbFirstGen.Name = "groupFirstGen";
+            this.gbFirstGen.Name = "gbFirstGen";
             this.gbFirstGen.Size = new System.Drawing.Size(775, 100);
             this.gbFirstGen.TabIndex = 0;
             this.gbFirstGen.TabStop = false;
             this.gbFirstGen.Text = "groupFirstGen";
             // 
-            // gameMonsterHunter
+            // bGameMonsterHunter
             // 
             this.bGameMonsterHunter.Location = new System.Drawing.Point(7, 20);
-            this.bGameMonsterHunter.Name = "gameMonsterHunter";
+            this.bGameMonsterHunter.Name = "bGameMonsterHunter";
             this.bGameMonsterHunter.Size = new System.Drawing.Size(120, 23);
             this.bGameMonsterHunter.TabIndex = 0;
             this.bGameMonsterHunter.Text = "gameMonsterHunter";
             this.bGameMonsterHunter.UseVisualStyleBackColor = true;
-            this.bGameMonsterHunter.Click += new System.EventHandler(this.GameMonsterHunter_Click);
+            this.bGameMonsterHunter.Click += new System.EventHandler(this.bGameMonsterHunter_Click);
             // 
-            // groupSecondGen
+            // gbSecondGen
             // 
             this.gbSecondGen.Controls.Add(this.bGameMonsterHunterFreedom2);
             this.gbSecondGen.Location = new System.Drawing.Point(13, 119);
-            this.gbSecondGen.Name = "groupSecondGen";
+            this.gbSecondGen.Name = "gbSecondGen";
             this.gbSecondGen.Size = new System.Drawing.Size(775, 100);
             this.gbSecondGen.TabIndex = 1;
             this.gbSecondGen.TabStop = false;
             this.gbSecondGen.Text = "groupSecondGen";
             // 
-            // gameMonsterHunterFreedom2
+            // bGameMonsterHunterFreedom2
             // 
             this.bGameMonsterHunterFreedom2.Location = new System.Drawing.Point(7, 20);
-            this.bGameMonsterHunterFreedom2.Name = "gameMonsterHunterFreedom2";
+            this.bGameMonsterHunterFreedom2.Name = "bGameMonsterHunterFreedom2";
             this.bGameMonsterHunterFreedom2.Size = new System.Drawing.Size(120, 23);
             this.bGameMonsterHunterFreedom2.TabIndex = 0;
             this.bGameMonsterHunterFreedom2.Text = "gameMonsterHunterFreedom2";
             this.bGameMonsterHunterFreedom2.UseVisualStyleBackColor = true;
-            this.bGameMonsterHunterFreedom2.Click += new System.EventHandler(this.GameMonsterHunterFreedom2_Click);
+            this.bGameMonsterHunterFreedom2.Click += new System.EventHandler(this.bGameMonsterHunterFreedom2_Click);
             // 
-            // groupThirdGen
+            // gbThirdGen
             // 
             this.gbThirdGen.Controls.Add(this.bGameMonsterHunter3U);
             this.gbThirdGen.Controls.Add(this.bGameMonsterHunter3);
             this.gbThirdGen.Location = new System.Drawing.Point(13, 225);
-            this.gbThirdGen.Name = "groupThirdGen";
+            this.gbThirdGen.Name = "gbThirdGen";
             this.gbThirdGen.Size = new System.Drawing.Size(775, 100);
             this.gbThirdGen.TabIndex = 2;
             this.gbThirdGen.TabStop = false;
             this.gbThirdGen.Text = "groupThirdGen";
             // 
-            // gameMonsterHunter3U
+            // bGameMonsterHunter3U
             // 
             this.bGameMonsterHunter3U.Location = new System.Drawing.Point(649, 20);
-            this.bGameMonsterHunter3U.Name = "gameMonsterHunter3U";
+            this.bGameMonsterHunter3U.Name = "bGameMonsterHunter3U";
             this.bGameMonsterHunter3U.Size = new System.Drawing.Size(120, 23);
             this.bGameMonsterHunter3U.TabIndex = 1;
             this.bGameMonsterHunter3U.Text = "gameMonsterHunter3U";
             this.bGameMonsterHunter3U.UseVisualStyleBackColor = true;
-            this.bGameMonsterHunter3U.Click += new System.EventHandler(this.GameMonsterHunter3U_Click);
+            this.bGameMonsterHunter3U.Click += new System.EventHandler(this.bGameMonsterHunter3U_Click);
             // 
-            // gameMonsterHunter3
+            // bGameMonsterHunter3
             // 
             this.bGameMonsterHunter3.Location = new System.Drawing.Point(7, 20);
-            this.bGameMonsterHunter3.Name = "gameMonsterHunter3";
+            this.bGameMonsterHunter3.Name = "bGameMonsterHunter3";
             this.bGameMonsterHunter3.Size = new System.Drawing.Size(120, 23);
             this.bGameMonsterHunter3.TabIndex = 0;
             this.bGameMonsterHunter3.Text = "gameMonsterHunter3";
             this.bGameMonsterHunter3.UseVisualStyleBackColor = true;
-            this.bGameMonsterHunter3.Click += new System.EventHandler(this.GameMonsterHunter3_Click);
+            this.bGameMonsterHunter3.Click += new System.EventHandler(this.bGameMonsterHunter3_Click);
             // 
-            // Game_Selection
+            // Game_Selection_International
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -121,7 +121,7 @@
             this.Controls.Add(this.gbSecondGen);
             this.Controls.Add(this.gbFirstGen);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Game_Selection";
+            this.Name = "Game_Selection_International";
             this.Text = "Game Selection";
             this.Load += new System.EventHandler(this.Game_Selection_Load);
             this.gbFirstGen.ResumeLayout(false);
