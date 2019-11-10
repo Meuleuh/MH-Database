@@ -51,7 +51,7 @@
     <StartupObject>MH_Database.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Pictures\Icône.ico</ApplicationIcon>
+    <ApplicationIcon>Ressources Files\Pictures\Icône.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -85,6 +85,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Ressources Files\Lang\Forms Components\Buttons.cs" />
     <Compile Include="Ressources Files\Lang\Forms Components\Group Box.cs" />
     <Compile Include="Ressources Files\Lang\Game Elements\Weapons\Great Sword\MH3U.cs" />
@@ -96,14 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -130,9 +130,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Pictures\Icône.ico" />
-    <Content Include="Pictures\Flags\France.png" />
-    <Content Include="Pictures\Flags\US.png" />
+    <Content Include="Ressources Files\Pictures\Icône.ico" />
+    <Content Include="Ressources Files\Pictures\Flags\France.png" />
+    <Content Include="Ressources Files\Pictures\Flags\US.png" />
     <Content Include="Procedures\Manipulating language.txt" />
     <Content Include="Procedures\ProcedureTemplate.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
