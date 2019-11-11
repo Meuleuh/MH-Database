@@ -152,6 +152,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProcedureTemplate.tt</DependentUpon>
     </Content>
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_2.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_3.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_4.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_5.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_6.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_7.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_8.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_9.png" />
+    <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_X.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_1.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_2.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_3.png" />
@@ -162,6 +172,16 @@
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_8.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_9.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_X.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_2.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_3.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_4.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_5.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_6.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_7.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_8.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_9.png" />
+    <Content Include="Ressources\Pictures\Rarities\Hammer\Hammer_Rarity_X.png" />
     <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_1.png" />
     <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_2.png" />
     <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_3.png" />
@@ -185,6 +205,8 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Ressources\Pictures\Rarities\MHW\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
