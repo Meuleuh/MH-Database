@@ -1,6 +1,6 @@
-﻿using MH_Database.Classes;
+﻿using MH_Database.Classes.MultiLang;
 
-namespace MH_Database.Ressources.Lang.Weapons.GS
+namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 {
     class MH3U
     {

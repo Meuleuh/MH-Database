@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MH_Database.Classes;
+using MH_Database.Classes.MultiLang;
 
 namespace MH_Database
 {
@@ -34,15 +34,15 @@ namespace MH_Database
 
             //Every items definition
             //Buttons
-            mbGameMonsterHunter = new MultiLangButton(bGameMonsterHunter, Ressources.Lang.Buttons.mbGameMonsterHunter);
-            mbGameMonsterHunterFreedom2 = new MultiLangButton(bGameMonsterHunterFreedom2, Ressources.Lang.Buttons.mbGameMonsterHunterFreedom2);
-            mbGameMonsterHunter3 = new MultiLangButton(bGameMonsterHunter3, Ressources.Lang.Buttons.mbGameMonsterHunter3);
-            mbGameMonsterHunter3U = new MultiLangButton(bGameMonsterHunter3U, Ressources.Lang.Buttons.mbGameMonsterHunter3U);
+            mbGameMonsterHunter = new MultiLangButton(bGameMonsterHunter, Ressources.MultiLangTexts.Buttons.mbGameMonsterHunter);
+            mbGameMonsterHunterFreedom2 = new MultiLangButton(bGameMonsterHunterFreedom2, Ressources.MultiLangTexts.Buttons.mbGameMonsterHunterFreedom2);
+            mbGameMonsterHunter3 = new MultiLangButton(bGameMonsterHunter3, Ressources.MultiLangTexts.Buttons.mbGameMonsterHunter3);
+            mbGameMonsterHunter3U = new MultiLangButton(bGameMonsterHunter3U, Ressources.MultiLangTexts.Buttons.mbGameMonsterHunter3U);
 
             //Group Box
-            mgbFirstGen = new MultiLangGroupBox(gbFirstGen, Ressources.Lang.GroupBox.mgbFirstGen);
-            mgbSecondGen = new MultiLangGroupBox(gbSecondGen, Ressources.Lang.GroupBox.mgbSecondGen);
-            mgbThirdGen = new MultiLangGroupBox(gbThirdGen, Ressources.Lang.GroupBox.mgbThirdGen);
+            mgbFirstGen = new MultiLangGroupBox(gbFirstGen, Ressources.MultiLangTexts.GroupBox.mgbFirstGen);
+            mgbSecondGen = new MultiLangGroupBox(gbSecondGen, Ressources.MultiLangTexts.GroupBox.mgbSecondGen);
+            mgbThirdGen = new MultiLangGroupBox(gbThirdGen, Ressources.MultiLangTexts.GroupBox.mgbThirdGen);
         }
 
         private void Game_Selection_Load(object sender, EventArgs e)

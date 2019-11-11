@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MH_Database.Classes
+namespace MH_Database.Classes.MultiLang
 {
     class MultiLangWeapon
     {

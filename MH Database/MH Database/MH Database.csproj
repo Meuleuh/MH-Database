@@ -51,7 +51,7 @@
     <StartupObject>MH_Database.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Ressources Files\Pictures\Icône.ico</ApplicationIcon>
+    <ApplicationIcon>Ressources\Pictures\Icône.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -67,10 +67,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\MultiLang.cs" />
-    <Compile Include="Classes\MultiLangGroupBox.cs" />
-    <Compile Include="Classes\MultiLangButton.cs" />
-    <Compile Include="Classes\MultiLangWeapon.cs" />
+    <Compile Include="Classes\MultiLang\MultiLang.cs" />
+    <Compile Include="Classes\MultiLang\MultiLangGroupBox.cs" />
+    <Compile Include="Classes\MultiLang\MultiLangButton.cs" />
+    <Compile Include="Classes\MultiLang\MultiLangWeapon.cs" />
     <Compile Include="Forms\Game Selection - International.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,9 +90,14 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Ressources Files\Lang\Forms Components\Buttons.cs" />
-    <Compile Include="Ressources Files\Lang\Forms Components\Group Box.cs" />
-    <Compile Include="Ressources Files\Lang\Game Elements\Weapons\Great Sword\MH3U.cs" />
+    <Compile Include="Ressources\MultiLangTexts\Forms Components\Buttons.cs" />
+    <Compile Include="Ressources\MultiLangTexts\Forms Components\Group Box.cs" />
+    <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\Great Sword\MH3U.cs" />
+    <Compile Include="Ressources\Pictures\Rarities\Weapons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Weapons.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Forms\Game Selection - International.resx">
       <DependentUpon>Game Selection - International.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,8 +106,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ressources\Pictures\Rarities\Weapons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Weapons.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -130,9 +138,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Ressources Files\Pictures\Icône.ico" />
-    <Content Include="Ressources Files\Pictures\Flags\France.png" />
-    <Content Include="Ressources Files\Pictures\Flags\US.png" />
+    <Content Include="Ressources\Pictures\Icône.ico" />
+    <Content Include="Ressources\Pictures\Flags\France.png" />
+    <Content Include="Ressources\Pictures\Flags\US.png" />
     <Content Include="Procedures\Manipulating language.txt" />
     <Content Include="Procedures\ProcedureTemplate.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
@@ -143,6 +151,46 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProcedureTemplate.tt</DependentUpon>
     </Content>
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_1.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_11.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_2.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_21.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_3.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_31.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_4.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_41.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_5.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_51.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_6.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_61.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_7.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_71.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_8.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_81.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_9.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_91.png" />
+    <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_X.png" />
+    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_x1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_2.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_3.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_4.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_5.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_6.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_7.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_8.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_9.png" />
+    <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_X.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_2.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_3.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_4.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_5.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_6.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_7.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_8.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_9.png" />
+    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_X.png" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

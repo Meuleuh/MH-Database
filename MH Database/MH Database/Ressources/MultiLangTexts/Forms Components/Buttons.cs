@@ -1,6 +1,6 @@
-﻿using MH_Database.Classes;
+﻿using MH_Database.Classes.MultiLang;
 
-namespace MH_Database.Ressources.Lang
+namespace MH_Database.Ressources.MultiLangTexts
 {
     class Buttons
     {

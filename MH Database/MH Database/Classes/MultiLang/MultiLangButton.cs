@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MH_Database.Classes
+namespace MH_Database.Classes.MultiLang
 {
     class MultiLangButton
     {
