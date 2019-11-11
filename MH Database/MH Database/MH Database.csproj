@@ -121,6 +121,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_8.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -152,25 +153,15 @@
       <DependentUpon>ProcedureTemplate.tt</DependentUpon>
     </Content>
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_1.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_11.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_2.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_21.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_3.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_31.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_4.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_41.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_5.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_51.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_6.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_61.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_7.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_71.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_8.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_81.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_9.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_91.png" />
     <Content Include="Ressources\Pictures\Rarities\Great Sword\Great_Sword_Rarity_X.png" />
-    <None Include="Ressources\Pictures\Rarities\Great Sword\great_sword_rarity_x1.png" />
     <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_1.png" />
     <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_2.png" />
     <Content Include="Ressources\Pictures\Rarities\Long Sword\Long_Sword_Rarity_3.png" />
@@ -188,7 +179,6 @@
     <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_5.png" />
     <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_6.png" />
     <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_7.png" />
-    <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_8.png" />
     <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_9.png" />
     <Content Include="Ressources\Pictures\Rarities\Sword and Shield\Sword_and_Shield_Rarity_X.png" />
   </ItemGroup>
