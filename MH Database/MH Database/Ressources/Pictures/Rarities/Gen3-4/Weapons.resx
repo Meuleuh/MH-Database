@@ -118,334 +118,424 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CB_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Bow_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bow_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\bow_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Charge_Blade_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CB_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Charge_Blade_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>charge blade\charge_blade_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DB_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Dual_Blades_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GL_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GL_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>gunlance\gunlance_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="GS_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="GS_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Great_Sword_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Gunlance_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gunlance_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hammer_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hammer_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hammer_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hammer\hammer_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Heavy_Bowgun_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heavy_Bowgun_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\heavy_bowgun_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hunting_Horn_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HH_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Hunting_Horn_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IG_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Insect_Glaive_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>insect glaive\insect_glaive_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Lance_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Lance_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Light_Bowgun_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Light_Bowgun_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\light_bowgun_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Long_Sword_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LS_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Long_Sword_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SA_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Switch_Axe_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>switch axe\switch_axe_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SnS_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Sword_and_Shield_Rarity_X" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
