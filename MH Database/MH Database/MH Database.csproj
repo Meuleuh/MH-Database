@@ -152,6 +152,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ProcedureTemplate.tt</DependentUpon>
     </Content>
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_2.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_3.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_4.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_5.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_6.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_7.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_8.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_9.png" />
+    <Content Include="Ressources\Pictures\Rarities\Charge Blade\Charge_Blade_Rarity_X.png" />
     <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_1.png" />
     <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_2.png" />
     <Content Include="Ressources\Pictures\Rarities\Dual Blades\Dual_Blades_Rarity_3.png" />
