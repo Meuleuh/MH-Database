@@ -148,6 +148,36 @@
   <data name="DB_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>dual blades\dual_blades_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="GL_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GL_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\gunlance_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GS_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>great sword\great_sword_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
