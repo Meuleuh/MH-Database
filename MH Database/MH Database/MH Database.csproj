@@ -242,6 +242,8 @@
     <Content Include="Ressources\Pictures\Rarities\Gen3-4\Insect Glaive\Insect_Glaive_Rarity_8.png" />
     <Content Include="Ressources\Pictures\Rarities\Gen3-4\Insect Glaive\Insect_Glaive_Rarity_9.png" />
     <Content Include="Ressources\Pictures\Rarities\Gen3-4\Insect Glaive\Insect_Glaive_Rarity_X.png" />
+    <Content Include="Ressources\Pictures\Rarities\Gen3-4\Kinsect\Kinsect_Blunt.png" />
+    <Content Include="Ressources\Pictures\Rarities\Gen3-4\Kinsect\Kinsect_Cutting.png" />
     <Content Include="Ressources\Pictures\Rarities\Gen3-4\Lance\Lance_Rarity_1.png" />
     <Content Include="Ressources\Pictures\Rarities\Gen3-4\Lance\Lance_Rarity_2.png" />
     <Content Include="Ressources\Pictures\Rarities\Gen3-4\Lance\Lance_Rarity_3.png" />

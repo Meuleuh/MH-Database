@@ -963,6 +963,26 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4 {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Kinsect_Blunt {
+            get {
+                object obj = ResourceManager.GetObject("Kinsect_Blunt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kinsect_Cutting {
+            get {
+                object obj = ResourceManager.GetObject("Kinsect_Cutting", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lance_Rarity_1 {
             get {
                 object obj = ResourceManager.GetObject("Lance_Rarity_1", resourceCulture);
