@@ -328,6 +328,36 @@
   <data name="LS_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>long sword\long_sword_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SA_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SA_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\switch_axe_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SnS_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>sword and shield\sword_and_shield_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
