@@ -99,6 +99,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Weapons.resx</DependentUpon>
     </Compile>
+    <Compile Include="Ressources\Pictures\Rarities\MHW\Weapons.cs" />
+    <Compile Include="Ressources\Pictures\Rarities\MHW\Weapons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Weapons.resx</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Forms\Game Selection - International.resx">
       <DependentUpon>Game Selection - International.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +116,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Ressources\Pictures\Rarities\Gen3-4\Weapons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Weapons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ressources\Pictures\Rarities\MHW\Weapons.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Weapons.Designer.cs</LastGenOutput>
     </EmbeddedResource>

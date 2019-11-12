@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rare_10_mhw_bow_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-10-mhw-bow-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_charge_blade_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-10-mhw-charge-blade-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_dualblades_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-10-mhw-dualblades-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_greatsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-10-mhw-greatsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_gunlance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-10-mhw-gunlance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_hammer_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-10-mhw-hammer-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_heavybow_gun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-10-mhw-heavybow-gun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_hunting_horn_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-10-mhw-hunting-horn-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_insect_glaive_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-10-mhw-insect-glaive-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_kinsect_wiki1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\rare-10-mhw-kinsect-wiki1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_lance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-10-mhw-lance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_light_bowgun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-10-mhw-light-bowgun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_longsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-10-mhw-longsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_switch_axe_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-10-mhw-switch-axe-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_10_mhw_sword_shield_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-10-mhw-sword-shield-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_bow_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-11-mhw-bow-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_charge_blade_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-11-mhw-charge-blade-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_dualblades_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-11-mhw-dualblades-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_greatsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-11-mhw-greatsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_gunlance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-11-mhw-gunlance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_hammer_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-11-mhw-hammer-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_heavybow_gun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-11-mhw-heavybow-gun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_hunting_horn_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-11-mhw-hunting-horn-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_insect_glaive_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-11-mhw-insect-glaive-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_lance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-11-mhw-lance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_light_bowgun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-11-mhw-light-bowgun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_longsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-11-mhw-longsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_switch_axe_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-11-mhw-switch-axe-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_11_mhw_sword_shield_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-11-mhw-sword-shield-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_bow_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-12-mhw-bow-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_charge_blade_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-12-mhw-charge-blade-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_dualblades_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-12-mhw-dualblades-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_greatsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-12-mhw-greatsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_gunlance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-12-mhw-gunlance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_hammer_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-12-mhw-hammer-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_heavybow_gun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-12-mhw-heavybow-gun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_hunting_horn_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-12-mhw-hunting-horn-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_insect_glaive_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-12-mhw-insect-glaive-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_kinsect_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\rare-12-mhw-kinsect-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_lance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-12-mhw-lance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_light_bowgun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-12-mhw-light-bowgun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_longsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-12-mhw-longsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_switch_axe_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-12-mhw-switch-axe-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_12_mhw_sword_shield_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-12-mhw-sword-shield-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-1-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-1-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-1-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-1-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-1-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-1-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-1-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-1-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-1-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-1-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-1-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-1-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-1-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-1-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-1-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_1_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-1-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-2-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-2-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-2-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-2-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-2-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-2-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-2-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-2-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-2-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-2-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-2-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-2-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-2-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-2-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-2-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_2_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-2-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-3-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-3-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-3-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-3-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-3-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-3-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-3-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-3-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-3-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-3-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-3-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-3-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-3-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-3-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-3-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_3_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-3-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-4-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-4-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-4-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-4-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-4-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-4-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-4-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-4-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-4-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-4-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-4-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-4-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-4-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-4-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-4-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_4_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-4-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-5-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-5-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-5-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-5-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-5-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-5-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-5-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-5-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-5-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-5-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-5-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-5-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-5-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-5-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-5-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_5_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-5-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-6-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-6-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-6-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-6-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-6-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-6-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-6-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-6-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-6-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-6-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-6-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-6-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-6-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-6-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-6-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_6_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-6-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-7-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-7-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_culldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\sever\rare-7-culldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-7-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-7-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-7-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-7-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-7-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-7-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-7-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-7-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-7-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-7-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_mauldrone_kinsect_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\blunt\rare-7-mauldrone-kinsect-tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-7-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_7_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-7-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_bow_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-8-bow-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_charge_blade_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-8-charge-blade-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_dual_blades_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-8-dual-blades-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_greatsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-8-greatsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_gunlance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-8-gunlance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_hammer_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-8-hammer-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_heavy_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-8-heavy-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_hunting_horn_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-8-hunting-horn-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_insect_glaive_mhw_tree_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-8-insect-glaive-mhw_tree_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_lance_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-8-lance-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_light_bowgun_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-8-light-bowgun-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_longsword_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-8-longsword-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_switch_axe_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-8-switch-axe-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_8_sword_shield_mhw_tree" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-8-sword-shield-mhw_tree.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_bow_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>bow\rare-9-mhw-bow-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_charge_blade_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>charge blade\rare-9-mhw-charge-blade-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_dualblades_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>dual blades\rare-9-mhw-dualblades-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_greatsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>great sword\rare-9-mhw-greatsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_gunlance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>gunlance\rare-9-mhw-gunlance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_hammer_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hammer\rare-9-mhw-hammer-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_heavybow_gun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>heavy bowgun\rare-9-mhw-heavybow-gun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_hunting_horn_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>hunting horn\rare-9-mhw-hunting-horn-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_insect_glaive_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\rare-9-mhw-insect-glaive-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_kinsect_wiki1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>kinsect\rare-9-mhw-kinsect-wiki1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_lance_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lance\rare-9-mhw-lance-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_light_bowgun_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>light bowgun\rare-9-mhw-light-bowgun-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_longsword_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>long sword\rare-9-mhw-longsword-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_switch_axe_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>switch axe\rare-9-mhw-switch-axe-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rare_9_mhw_sword_shield_wiki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>sword and shield\rare-9-mhw-sword-shield-wiki.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
