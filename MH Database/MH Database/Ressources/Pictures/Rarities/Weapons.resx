@@ -298,6 +298,36 @@
   <data name="HH_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>hunting horn\hunting_horn_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="IG_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_R9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IG_RX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>insect glaive\insect_glaive_rarity_x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Lance_R1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>lance\lance_rarity_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

@@ -212,6 +212,16 @@
     <Content Include="Ressources\Pictures\Rarities\Hunting Horn\Hunting_Horn_Rarity_8.png" />
     <Content Include="Ressources\Pictures\Rarities\Hunting Horn\Hunting_Horn_Rarity_9.png" />
     <Content Include="Ressources\Pictures\Rarities\Hunting Horn\Hunting_Horn_Rarity_X.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_1.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_2.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_3.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_4.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_5.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_6.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_7.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_8.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_9.png" />
+    <Content Include="Ressources\Pictures\Rarities\Insect Glaive\Insect_Glaive_Rarity_X.png" />
     <Content Include="Ressources\Pictures\Rarities\Lance\Lance_Rarity_1.png" />
     <Content Include="Ressources\Pictures\Rarities\Lance\Lance_Rarity_2.png" />
     <Content Include="Ressources\Pictures\Rarities\Lance\Lance_Rarity_3.png" />
