@@ -4,7 +4,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
 {
     internal class WeaponsIcons
     {
-        internal Bitmap[] Bow = new Bitmap[11]
+        readonly internal Bitmap[] Bow = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Bow_Rarity_1,
@@ -19,7 +19,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Bow_Rarity_X
         };
 
-        internal Bitmap[] Charge_Blade = new Bitmap[11]
+        readonly internal Bitmap[] Charge_Blade = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Charge_Blade_Rarity_1,
@@ -34,7 +34,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Charge_Blade_Rarity_X
         };
 
-        internal Bitmap[] Dual_Blades = new Bitmap[11]
+        readonly internal Bitmap[] Dual_Blades = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Dual_Blades_Rarity_1,
@@ -49,7 +49,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Dual_Blades_Rarity_X
         };
 
-        internal Bitmap[] Great_Sword = new Bitmap[11]
+        readonly internal Bitmap[] Great_Sword = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Great_Sword_Rarity_1,
@@ -64,7 +64,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Great_Sword_Rarity_X
         };
 
-        internal Bitmap[] Gunlance = new Bitmap[11]
+        readonly internal Bitmap[] Gunlance = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Gunlance_Rarity_1,
@@ -79,7 +79,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Gunlance_Rarity_X
         };
 
-        internal Bitmap[] Hammer = new Bitmap[11]
+        readonly internal Bitmap[] Hammer = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Hammer_Rarity_1,
@@ -94,7 +94,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Hammer_Rarity_X
         };
 
-        internal Bitmap[] Heavy_Bowgun = new Bitmap[11]
+        readonly internal Bitmap[] Heavy_Bowgun = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Heavy_Bowgun_Rarity_1,
@@ -109,7 +109,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Heavy_Bowgun_Rarity_X
         };
 
-        internal Bitmap[] Hunting_Horn = new Bitmap[11]
+        readonly internal Bitmap[] Hunting_Horn = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Hunting_Horn_Rarity_1,
@@ -124,7 +124,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Hunting_Horn_Rarity_X
         };
 
-        internal Bitmap[] Insect_Glaive = new Bitmap[11]
+        readonly internal Bitmap[] Insect_Glaive = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Insect_Glaive_Rarity_1,
@@ -141,11 +141,11 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
 
         internal class Kinsect
         {
-            Bitmap Blunt   = new Bitmap(Weapons.Kinsect_Blunt);
-            Bitmap Cutting = new Bitmap(Weapons.Kinsect_Cutting);
+            readonly internal Bitmap Blunt   = new Bitmap(Weapons.Kinsect_Blunt);
+            readonly internal Bitmap Cutting = new Bitmap(Weapons.Kinsect_Cutting);
         }
 
-        internal Bitmap[] Lance = new Bitmap[11]
+        readonly internal Bitmap[] Lance = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Lance_Rarity_1,
@@ -160,7 +160,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Lance_Rarity_X
         };
 
-        internal Bitmap[] Light_Bowgun = new Bitmap[11]
+        readonly internal Bitmap[] Light_Bowgun = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Light_Bowgun_Rarity_1,
@@ -175,7 +175,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Light_Bowgun_Rarity_X
         };
 
-        internal Bitmap[] Long_Sword = new Bitmap[11]
+        readonly internal Bitmap[] Long_Sword = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Long_Sword_Rarity_1,
@@ -190,7 +190,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Long_Sword_Rarity_X
         };
 
-        internal Bitmap[] Switch_Axe = new Bitmap[11]
+        readonly internal Bitmap[] Switch_Axe = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Switch_Axe_Rarity_1,
@@ -205,7 +205,7 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Switch_Axe_Rarity_X
         };
 
-        internal Bitmap[] Sword_and_Shield = new Bitmap[11]
+        readonly internal Bitmap[] Sword_and_Shield = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
             Weapons.Sword_and_Shield_Rarity_1,
