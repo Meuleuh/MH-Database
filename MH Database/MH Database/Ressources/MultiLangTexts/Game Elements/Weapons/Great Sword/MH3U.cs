@@ -6,7 +6,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
     {
         //Iron Sword
         //Épée de fer
-        internal static MultiLangWeapon ironSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon ironSword = new MultiLangWeapon
             (
             enAllTier:"Iron Sword",
             frAllTier: "Épée de fer"
@@ -14,7 +14,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Iron Sword+
         //Épée de fer +
-        internal static MultiLangWeapon ironSwordPlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon ironSwordPlus = new MultiLangWeapon
             (
             enAllTier:"Iron Sword+",
             frAllTier: "Épée de fer +"
@@ -22,7 +22,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Buster Sword
         //Épée découpeuse
-        internal static MultiLangWeapon busterSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon busterSword = new MultiLangWeapon
             (
             enAllTier: "Buster Sword",
             frAllTier: "Épée découpeuse"
@@ -30,7 +30,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Buster Sword+
         //Épée découpeuse +
-        internal static MultiLangWeapon busterSwordPlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon busterSwordPlus = new MultiLangWeapon
             (
             enAllTier: "Buster Sword+",
             frAllTier: "Épée découpeuse +"
@@ -38,7 +38,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Buster Blade
         //Lame découpeuse
-        internal static MultiLangWeapon busterBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon busterBlade = new MultiLangWeapon
             (
             enAllTier: "Buster Blade",
             frAllTier: "Lame découpeuse"
@@ -46,7 +46,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Ravager Blade
         //Lame ravageuse
-        internal static MultiLangWeapon ravagerBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon ravagerBlade = new MultiLangWeapon
             (
             enAllTier: "Ravager Blade",
             frAllTier: "Lame ravageuse"
@@ -54,7 +54,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lacerator Blade
         //Lame Lacerator
-        internal static MultiLangWeapon laceratorBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon laceratorBlade = new MultiLangWeapon
             (
             enAllTier: "Lacerator Blade",
             frAllTier: "Lame Lacerator"
@@ -62,7 +62,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Devastator Blade
         //Lame dévastatrice
-        internal static MultiLangWeapon devastatorBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon devastatorBlade = new MultiLangWeapon
             (
             enAllTier: "Devastator Blade",
             frAllTier: "Lame dévastatrice"
@@ -70,7 +70,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Chrome Razor
         //Rasoir chrome
-        internal static MultiLangWeapon chromeRazor = new MultiLangWeapon
+        internal readonly MultiLangWeapon chromeRazor = new MultiLangWeapon
             (
             enAllTier: "Chrome Razor",
             frAllTier: "Rasoir chrome"
@@ -78,7 +78,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Chrome Quietus
         //Quietus chrome
-        internal static MultiLangWeapon chromeQuietus = new MultiLangWeapon
+        internal readonly MultiLangWeapon chromeQuietus = new MultiLangWeapon
             (
             enAllTier: "Chrome Quietus",
             frAllTier: "Quietus chrome"
@@ -86,7 +86,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Brazenwall
         //Lame d'airain
-        internal static MultiLangWeapon brazenwall = new MultiLangWeapon
+        internal readonly MultiLangWeapon brazenwall = new MultiLangWeapon
             (
             enAllTier: "Brazenwall",
             frAllTier: "Lame d'airain"
@@ -94,7 +94,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Crimsonwall
         //Mur pourpre
-        internal static MultiLangWeapon crimsonwall = new MultiLangWeapon
+        internal readonly MultiLangWeapon crimsonwall = new MultiLangWeapon
             (
             enAllTier: "Crimsonwall",
             frAllTier: "Mur pourpre"
@@ -102,7 +102,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Cragscliff
         //Rochetaille
-        internal static MultiLangWeapon cragscliff = new MultiLangWeapon
+        internal readonly MultiLangWeapon cragscliff = new MultiLangWeapon
             (
             enAllTier: "Cragscliff",
             frAllTier: "Rochetaille"
@@ -110,7 +110,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Goliath's Scream
         //Cri de Goliath
-        internal static MultiLangWeapon goliathsScream = new MultiLangWeapon
+        internal readonly MultiLangWeapon goliathsScream = new MultiLangWeapon
             (
             enAllTier: "Goliath's Scream",
             frAllTier: "Cri de Goliath"
@@ -118,7 +118,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Hidden Blade
         //Lame cachée
-        internal static MultiLangWeapon hiddenBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon hiddenBlade = new MultiLangWeapon
             (
             enAllTier: "Hidden Blade",
             frAllTier: "Lame cachée"
@@ -126,7 +126,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Dark of Night
         //Sombre nuit
-        internal static MultiLangWeapon darkOfNight = new MultiLangWeapon
+        internal readonly MultiLangWeapon darkOfNight = new MultiLangWeapon
             (
             enAllTier: "Dark of Night",
             frAllTier: "Sombre nuit"
@@ -134,7 +134,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Avidya Great Sword
         //Grande épée Avidya
-        internal static MultiLangWeapon avidyaGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon avidyaGreatSword = new MultiLangWeapon
             (
             enAllTier: "Avidya Great Sword",
             frAllTier: "Grande épée Avidya"
@@ -142,7 +142,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Type 41 Wyvernator
         //Wyvernator type 41
-        internal static MultiLangWeapon type41Wyvernator = new MultiLangWeapon
+        internal readonly MultiLangWeapon type41Wyvernator = new MultiLangWeapon
             (
             enAllTier: "Type 41 Wyvernator",
             frAllTier: "Wyvernator type 41"
@@ -150,7 +150,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Remalgalypse
         //Remalgalypse
-        internal static MultiLangWeapon remalgalypse = new MultiLangWeapon
+        internal readonly MultiLangWeapon remalgalypse = new MultiLangWeapon
             (
             enAllTier: "Remalgalypse",
             frAllTier: "Remalgalypse"
@@ -158,7 +158,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Remalgagorgon
         //Remalgagorgon
-        internal static MultiLangWeapon remalgagorgon = new MultiLangWeapon
+        internal readonly MultiLangWeapon remalgagorgon = new MultiLangWeapon
             (
             enAllTier: "Remalgagorgon",
             frAllTier: "Remalgagorgon"
@@ -166,7 +166,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Rugged Great Sword
         //Grande épée sauvage
-        internal static MultiLangWeapon ruggedGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon ruggedGreatSword = new MultiLangWeapon
             (
             enAllTier: "Rugged Great Sword",
             frAllTier: "Grande épée sauvage"
@@ -174,7 +174,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Chieftain's Grt Swd
         //Grande épée de chef
-        internal static MultiLangWeapon chieftainsGrtSwd = new MultiLangWeapon
+        internal readonly MultiLangWeapon chieftainsGrtSwd = new MultiLangWeapon
             (
             enAllTier: "Chieftain's Grt Swd",
             frAllTier: "Grande épée de chef"
@@ -182,7 +182,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //High Chief's Grt Swd
         //Grande épée grd chef
-        internal static MultiLangWeapon highChiefsGrtSwd = new MultiLangWeapon
+        internal readonly MultiLangWeapon highChiefsGrtSwd = new MultiLangWeapon
             (
             enAllTier: "High Chief's Grt Swd",
             frAllTier: "Grande épée grd chef"
@@ -190,7 +190,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lagiacrus Blade
         //Lame Lagiacrus
-        internal static MultiLangWeapon lagiacrusBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon lagiacrusBlade = new MultiLangWeapon
             (
             enAllTier: "Lagiacrus Blade",
             frAllTier: "Lame Lagiacrus"
@@ -198,7 +198,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lagiacrus Blade+
         //Lame Lagiacrus +
-        internal static MultiLangWeapon lagiacrusBladePlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon lagiacrusBladePlus = new MultiLangWeapon
             (
             enAllTier: "Lagiacrus Blade+",
             frAllTier: "Lame Lagiacrus +"
@@ -206,7 +206,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //High Lagia Blade
         //Grande lame Lagia
-        internal static MultiLangWeapon highLagiaBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon highLagiaBlade = new MultiLangWeapon
             (
             enAllTier: "High Lagia Blade",
             frAllTier: "Grande lame Lagia"
@@ -214,7 +214,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lagia Lightning
         //Éclair Lagia
-        internal static MultiLangWeapon lagiaLightning = new MultiLangWeapon
+        internal readonly MultiLangWeapon lagiaLightning = new MultiLangWeapon
             (
             enAllTier: "Lagia Lightning",
             frAllTier: "Éclair Lagia"
@@ -222,7 +222,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lagia Wildfire
         //Feu sauvage Lagia
-        internal static MultiLangWeapon lagiaWildfire = new MultiLangWeapon
+        internal readonly MultiLangWeapon lagiaWildfire = new MultiLangWeapon
             (
             enAllTier: "Lagia Wildfire",
             frAllTier: "Feu sauvage Lagia"
@@ -230,7 +230,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Neo Lagia Blade
         //Lame néo-Lagia
-        internal static MultiLangWeapon neoLagiaBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon neoLagiaBlade = new MultiLangWeapon
             (
             enAllTier: "Neo Lagia Blade",
             frAllTier: "Lame néo-Lagia"
@@ -238,7 +238,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lagia Fulmination
         //Fulmination Lagia
-        internal static MultiLangWeapon lagiaFulmination = new MultiLangWeapon
+        internal readonly MultiLangWeapon lagiaFulmination = new MultiLangWeapon
             (
             enAllTier: "Lagia Fulmination",
             frAllTier: "Fulmination Lagia"
@@ -246,7 +246,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Usurper's Storm
         //Tempête d'usurpateur
-        internal static MultiLangWeapon usurpersStorm = new MultiLangWeapon
+        internal readonly MultiLangWeapon usurpersStorm = new MultiLangWeapon
             (
             enAllTier: "Usurper's Storm",
             frAllTier: "Tempête d'usurpateur"
@@ -254,7 +254,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Despot's Blackstorm
         //Tempête du despote
-        internal static MultiLangWeapon despotsBlackstorm = new MultiLangWeapon
+        internal readonly MultiLangWeapon despotsBlackstorm = new MultiLangWeapon
             (
             enAllTier: "Despot's Blackstorm",
             frAllTier: "Tempête du despote"
@@ -262,7 +262,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Oppressor's Forger
         //Forgeron oppresseur
-        internal static MultiLangWeapon oppressorsForger = new MultiLangWeapon
+        internal readonly MultiLangWeapon oppressorsForger = new MultiLangWeapon
             (
             enAllTier: "Oppressor's Forger",
             frAllTier: "Forgeron oppresseur"
@@ -270,7 +270,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Orcus Tonitrus
         //Orcus Tonitrus
-        internal static MultiLangWeapon orcusTonitrus = new MultiLangWeapon
+        internal readonly MultiLangWeapon orcusTonitrus = new MultiLangWeapon
             (
             enAllTier: "Orcus Tonitrus",
             frAllTier: "Orcus Tonitrus"
@@ -278,7 +278,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Nether Great Sword
         //Grande épée Nether
-        internal static MultiLangWeapon netherGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon netherGreatSword = new MultiLangWeapon
             (
             enAllTier: "Nether Great Sword",
             frAllTier: "Grande épée Nether"
@@ -286,7 +286,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Nether Lufactrus
         //Lufactrus Nether
-        internal static MultiLangWeapon netherLufactrus = new MultiLangWeapon
+        internal readonly MultiLangWeapon netherLufactrus = new MultiLangWeapon
             (
             enAllTier: "Nether Lufactrus",
             frAllTier: "Lufactrus Nether"
@@ -294,7 +294,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Brimstren Drakepride
         //Orgueil du dragon
-        internal static MultiLangWeapon brimstrenDrakepride = new MultiLangWeapon
+        internal readonly MultiLangWeapon brimstrenDrakepride = new MultiLangWeapon
             (
             enAllTier: "Brimstren Drakepride",
             frAllTier: "Orgueil du dragon"
@@ -302,7 +302,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Stygian Acedia
         //Acedia stygienne
-        internal static MultiLangWeapon stygianAcedia = new MultiLangWeapon
+        internal readonly MultiLangWeapon stygianAcedia = new MultiLangWeapon
             (
             enAllTier: "Stygian Acedia",
             frAllTier: "Acedia stygienne"
@@ -310,7 +310,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Carapace Sword
         //Épée carapace
-        internal static MultiLangWeapon carapaceSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon carapaceSword = new MultiLangWeapon
             (
             enAllTier: "Carapace Sword",
             frAllTier: "Épée carapace"
@@ -318,7 +318,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Carapace Blade
         //Lame carapace
-        internal static MultiLangWeapon carapaceBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon carapaceBlade = new MultiLangWeapon
             (
             enAllTier: "Carapace Blade",
             frAllTier: "Lame carapace"
@@ -326,7 +326,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Barroth Smasher
         //Écraseur Barroth
-        internal static MultiLangWeapon barrothSmasher = new MultiLangWeapon
+        internal readonly MultiLangWeapon barrothSmasher = new MultiLangWeapon
             (
             enAllTier: "Barroth Smasher",
             frAllTier: "Écraseur Barroth"
@@ -334,7 +334,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Aurora Blade
         //Lame aurore
-        internal static MultiLangWeapon auroraBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon auroraBlade = new MultiLangWeapon
             (
             enAllTier: "Aurora Blade",
             frAllTier: "Lame aurore"
@@ -342,7 +342,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Nothern Lights
         //Aurore boréale
-        internal static MultiLangWeapon nothernLights = new MultiLangWeapon
+        internal readonly MultiLangWeapon nothernLights = new MultiLangWeapon
             (
             enAllTier: "Nothern Lights",
             frAllTier: "Aurore boréale"
@@ -350,7 +350,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Nothern Cross
         //Croix du nord
-        internal static MultiLangWeapon nothernCross = new MultiLangWeapon
+        internal readonly MultiLangWeapon nothernCross = new MultiLangWeapon
             (
             enAllTier: "Nothern Cross",
             frAllTier: "Croix du nord"
@@ -358,7 +358,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Viking Hornsword
         //Épée en corne Viking
-        internal static MultiLangWeapon vikingHornsword = new MultiLangWeapon
+        internal readonly MultiLangWeapon vikingHornsword = new MultiLangWeapon
             (
             enAllTier: "Viking Hornsword",
             frAllTier: "Épée en corne Viking"
@@ -366,7 +366,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Ancharius
         //Épée Ancharius
-        internal static MultiLangWeapon ancharius = new MultiLangWeapon
+        internal readonly MultiLangWeapon ancharius = new MultiLangWeapon
             (
             enAllTier: "Ancharius",
             frAllTier: "Épée Ancharius"
@@ -374,7 +374,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Excalius Sword
         //Épée Excalius
-        internal static MultiLangWeapon excaliusSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon excaliusSword = new MultiLangWeapon
             (
             enAllTier: "Excalius Sword",
             frAllTier: "Épée Excalius"
@@ -382,7 +382,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Bone Blade
         //Lame en os
-        internal static MultiLangWeapon boneBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon boneBlade = new MultiLangWeapon
             (
             enAllTier: "Bone Blade",
             frAllTier: "Lame en os"
@@ -390,7 +390,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Bone Blade+
         //Lame en os +
-        internal static MultiLangWeapon boneBladePlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon boneBladePlus = new MultiLangWeapon
             (
             enAllTier: "Bone Blade+",
             frAllTier: "Lame en os +"
@@ -398,7 +398,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Jawblade
         //Lame mâchoire
-        internal static MultiLangWeapon jawblade = new MultiLangWeapon
+        internal readonly MultiLangWeapon jawblade = new MultiLangWeapon
             (
             enAllTier: "Jawblade",
             frAllTier: "Lame mâchoire"
@@ -406,7 +406,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Giant Jawblade
         //Lame mâchoire géante
-        internal static MultiLangWeapon giantJawblade = new MultiLangWeapon
+        internal readonly MultiLangWeapon giantJawblade = new MultiLangWeapon
             (
             enAllTier: "Giant Jawblade",
             frAllTier: "Lame mâchoire géante"
@@ -414,7 +414,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Red Wing
         //Aile rouge
-        internal static MultiLangWeapon redWing = new MultiLangWeapon
+        internal readonly MultiLangWeapon redWing = new MultiLangWeapon
             (
             enAllTier: "Red Wing",
             frAllTier: "Aile rouge"
@@ -422,7 +422,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Rathalos Firesword
         //Épée de feu Rathalos
-        internal static MultiLangWeapon rathalosFiresword = new MultiLangWeapon
+        internal readonly MultiLangWeapon rathalosFiresword = new MultiLangWeapon
             (
             enAllTier: "Rathalos Firesword",
             frAllTier: "Épée de feu Rathalos"
@@ -430,7 +430,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Rathalos Flamesword
         //Épée flamme Rathalos
-        internal static MultiLangWeapon rathalosFlamesword = new MultiLangWeapon
+        internal readonly MultiLangWeapon rathalosFlamesword = new MultiLangWeapon
             (
             enAllTier: "Rathalos Flamesword",
             frAllTier: "Épée flamme Rathalos"
@@ -438,7 +438,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Blue Wing
         //Aile bleue
-        internal static MultiLangWeapon blueWing = new MultiLangWeapon
+        internal readonly MultiLangWeapon blueWing = new MultiLangWeapon
             (
             enAllTier: "Blue Wing",
             frAllTier: "Aile bleue"
@@ -446,7 +446,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Rathalos Glinsword
         //Flam bleue Rathalos
-        internal static MultiLangWeapon rathalosGlinsword = new MultiLangWeapon
+        internal readonly MultiLangWeapon rathalosGlinsword = new MultiLangWeapon
             (
             enAllTier: "Rathalos Glinsword",
             frAllTier: "Flam bleue Rathalos"
@@ -454,7 +454,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Rathalos Gleamsword
         //Flam argent Rathalos
-        internal static MultiLangWeapon rathalosGleamsword = new MultiLangWeapon
+        internal readonly MultiLangWeapon rathalosGleamsword = new MultiLangWeapon
             (
             enAllTier: "Rathalos Gleamsword",
             frAllTier: "Flam argent Rathalos"
@@ -462,7 +462,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Dios Blade
         //Lame Dios
-        internal static MultiLangWeapon diosBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon diosBlade = new MultiLangWeapon
             (
             enAllTier: "Dios Blade",
             frAllTier: "Lame Dios"
@@ -470,7 +470,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Dios Blade+
         //Lame Dios +
-        internal static MultiLangWeapon diosBladePlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon diosBladePlus = new MultiLangWeapon
             (
             enAllTier: "Dios Blade+",
             frAllTier: "Lame Dios +"
@@ -478,7 +478,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Demolition Sword
         //Épée de démolition
-        internal static MultiLangWeapon demolitionSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon demolitionSword = new MultiLangWeapon
             (
             enAllTier: "Demolition Sword",
             frAllTier: "Épée de démolition"
@@ -486,7 +486,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Myxo Demolisher
         //Démolisseur Myxo
-        internal static MultiLangWeapon myxoDemolisher = new MultiLangWeapon
+        internal readonly MultiLangWeapon myxoDemolisher = new MultiLangWeapon
             (
             enAllTier: "Myxo Demolisher",
             frAllTier: "Démolisseur Myxo"
@@ -494,7 +494,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Valkyrie Blade
         //Lame Valkyrie
-        internal static MultiLangWeapon valkyrieBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon valkyrieBlade = new MultiLangWeapon
             (
             enAllTier: "Valkyrie Blade",
             frAllTier: "Lame Valkyrie"
@@ -502,7 +502,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Sieglinde
         //Sieglinde
-        internal static MultiLangWeapon sieglinde = new MultiLangWeapon
+        internal readonly MultiLangWeapon sieglinde = new MultiLangWeapon
             (
             enAllTier: "Sieglinde",
             frAllTier: "Sieglinde"
@@ -510,7 +510,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //High Sieglinde
         //Grande Sieglinde
-        internal static MultiLangWeapon highSieglinde = new MultiLangWeapon
+        internal readonly MultiLangWeapon highSieglinde = new MultiLangWeapon
             (
             enAllTier: "High Sieglinde",
             frAllTier: "Grande Sieglinde"
@@ -518,7 +518,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Titania
         //Titania
-        internal static MultiLangWeapon titania = new MultiLangWeapon
+        internal readonly MultiLangWeapon titania = new MultiLangWeapon
             (
             enAllTier: "Titania",
             frAllTier: "Titania"
@@ -526,7 +526,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Blushing Dame
         //Dame rougissante
-        internal static MultiLangWeapon blushingDame = new MultiLangWeapon
+        internal readonly MultiLangWeapon blushingDame = new MultiLangWeapon
             (
             enAllTier: "Blushing Dame",
             frAllTier: "Dame rougissante"
@@ -534,7 +534,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Ljósálfar
         //Ljósálfar
-        internal static MultiLangWeapon ljósálfar = new MultiLangWeapon
+        internal readonly MultiLangWeapon ljósálfar = new MultiLangWeapon
             (
             enAllTier: "Ljósálfar",
             frAllTier: "Ljósálfar"
@@ -542,7 +542,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Brünnhilde
         //Brünnhilde
-        internal static MultiLangWeapon brünnhilde = new MultiLangWeapon
+        internal readonly MultiLangWeapon brünnhilde = new MultiLangWeapon
             (
             enAllTier: "Brünnhilde",
             frAllTier: "Brünnhilde"
@@ -550,7 +550,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Siegmund
         //Siegmund
-        internal static MultiLangWeapon siegmund = new MultiLangWeapon
+        internal readonly MultiLangWeapon siegmund = new MultiLangWeapon
             (
             enAllTier: "Siegmund",
             frAllTier: "Siegmund"
@@ -558,7 +558,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //High Siegmund
         //Grand Siegmund
-        internal static MultiLangWeapon highSiegmund = new MultiLangWeapon
+        internal readonly MultiLangWeapon highSiegmund = new MultiLangWeapon
             (
             enAllTier: "High Siegmund",
             frAllTier: "Grand Siegmund"
@@ -566,7 +566,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Reddnaught
         //Reddnaught
-        internal static MultiLangWeapon reddnaught = new MultiLangWeapon
+        internal readonly MultiLangWeapon reddnaught = new MultiLangWeapon
             (
             enAllTier: "Reddnaught",
             frAllTier: "Reddnaught"
@@ -574,7 +574,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Auberon
         //Auberon
-        internal static MultiLangWeapon auberon = new MultiLangWeapon
+        internal readonly MultiLangWeapon auberon = new MultiLangWeapon
             (
             enAllTier: "Auberon",
             frAllTier: "Auberon"
@@ -582,7 +582,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Pale Kaiser
         //Kaiser pâle
-        internal static MultiLangWeapon paleKaiser = new MultiLangWeapon
+        internal readonly MultiLangWeapon paleKaiser = new MultiLangWeapon
             (
             enAllTier: "Pale Kaiser",
             frAllTier: "Kaiser pâle"
@@ -590,7 +590,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Golem Blade
         //Lame Golem
-        internal static MultiLangWeapon golemBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon golemBlade = new MultiLangWeapon
             (
             enAllTier: "Golem Blade",
             frAllTier: "Lame Golem"
@@ -598,7 +598,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Blade of Talos
         //Lame de Talos
-        internal static MultiLangWeapon bladeOfTalos = new MultiLangWeapon
+        internal readonly MultiLangWeapon bladeOfTalos = new MultiLangWeapon
             (
             enAllTier: "Blade of Talos",
             frAllTier: "Lame de Talos"
@@ -606,7 +606,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Blade of Tartarus
         //Lame de Tartarus
-        internal static MultiLangWeapon bladeOfTartarus = new MultiLangWeapon
+        internal readonly MultiLangWeapon bladeOfTartarus = new MultiLangWeapon
             (
             enAllTier: "Blade of Tartarus",
             frAllTier: "Lame de Tartarus"
@@ -614,7 +614,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Wyvern Jawblade
         //Lame mâchoire Wyvern
-        internal static MultiLangWeapon wyvernJawblade = new MultiLangWeapon
+        internal readonly MultiLangWeapon wyvernJawblade = new MultiLangWeapon
             (
             enAllTier: "Wyvern Jawblade",
             frAllTier: "Lame mâchoire Wyvern"
@@ -622,7 +622,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Quarrel Hornsword
         //Épée en corne colère
-        internal static MultiLangWeapon quarrelHornsword = new MultiLangWeapon
+        internal readonly MultiLangWeapon quarrelHornsword = new MultiLangWeapon
             (
             enAllTier: "Quarrel Hornsword",
             frAllTier: "Épée en corne colère"
@@ -630,7 +630,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Quarrel Hornsword+
         //Épée corne colère +
-        internal static MultiLangWeapon quarrelHornswordPlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon quarrelHornswordPlus = new MultiLangWeapon
             (
             enAllTier: "Quarrel Hornsword+",
             frAllTier: "Épée corne colère +"
@@ -638,7 +638,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Double Diablos
         //Double Diablos
-        internal static MultiLangWeapon doubleDiablos = new MultiLangWeapon
+        internal readonly MultiLangWeapon doubleDiablos = new MultiLangWeapon
             (
             enAllTier: "Double Diablos",
             frAllTier: "Double Diablos"
@@ -646,7 +646,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Cera Cigil
         //Cera Cigil
-        internal static MultiLangWeapon ceraCigil = new MultiLangWeapon
+        internal readonly MultiLangWeapon ceraCigil = new MultiLangWeapon
             (
             enAllTier: "Cera Cigil",
             frAllTier: "Cera Cigil"
@@ -654,7 +654,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Cera Cymmmetry
         //Cera Symmetry
-        internal static MultiLangWeapon ceraCymmmetry = new MultiLangWeapon
+        internal readonly MultiLangWeapon ceraCymmmetry = new MultiLangWeapon
             (
             enAllTier: "Cera Cymmmetry",
             frAllTier: "Cera Symmetry"
@@ -662,7 +662,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Ludroth Bone Sword
         //Épée en os Ludroth
-        internal static MultiLangWeapon ludrothBoneSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon ludrothBoneSword = new MultiLangWeapon
             (
             enAllTier: "Ludroth Bone Sword",
             frAllTier: "Épée en os Ludroth"
@@ -670,7 +670,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Cataclysm Sword
         //Épée cataclysme
-        internal static MultiLangWeapon cataclysmSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon cataclysmSword = new MultiLangWeapon
             (
             enAllTier: "Cataclysm Sword",
             frAllTier: "Épée cataclysme"
@@ -678,7 +678,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Cataclysm Blade
         //Lame cataclysme
-        internal static MultiLangWeapon cataclysmBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon cataclysmBlade = new MultiLangWeapon
             (
             enAllTier: "Cataclysm Blade",
             frAllTier: "Lame cataclysme"
@@ -686,7 +686,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Icicle Fang
         //Croc stalactite
-        internal static MultiLangWeapon icicleFang = new MultiLangWeapon
+        internal readonly MultiLangWeapon icicleFang = new MultiLangWeapon
             (
             enAllTier: "Icicle Fang",
             frAllTier: "Croc stalactite"
@@ -694,7 +694,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Icicle Fang+
         //Croc stalactite +
-        internal static MultiLangWeapon icicleFangPlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon icicleFangPlus = new MultiLangWeapon
             (
             enAllTier: "Icicle Fang+",
             frAllTier: "Croc stalactite +"
@@ -702,7 +702,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Paladire
         //Sinistre
-        internal static MultiLangWeapon paladire = new MultiLangWeapon
+        internal readonly MultiLangWeapon paladire = new MultiLangWeapon
             (
             enAllTier: "Paladire",
             frAllTier: "Sinistre"
@@ -710,7 +710,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Galespike
         //Pointebrise
-        internal static MultiLangWeapon galespike = new MultiLangWeapon
+        internal readonly MultiLangWeapon galespike = new MultiLangWeapon
             (
             enAllTier: "Galespike",
             frAllTier: "Pointebrise"
@@ -718,7 +718,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Simoom Sandbarb
         //Simoun sable
-        internal static MultiLangWeapon simoomSandbarb = new MultiLangWeapon
+        internal readonly MultiLangWeapon simoomSandbarb = new MultiLangWeapon
             (
             enAllTier: "Simoom Sandbarb",
             frAllTier: "Simoun sable"
@@ -726,7 +726,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Simoom Sandbitter
         //Simoun Mord sable
-        internal static MultiLangWeapon simoomSandbitter = new MultiLangWeapon
+        internal readonly MultiLangWeapon simoomSandbitter = new MultiLangWeapon
             (
             enAllTier: "Simoom Sandbitter",
             frAllTier: "Simoun Mord sable"
@@ -734,7 +734,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Finblade
         //Lame nageoire
-        internal static MultiLangWeapon finblade = new MultiLangWeapon
+        internal readonly MultiLangWeapon finblade = new MultiLangWeapon
             (
             enAllTier: "Finblade",
             frAllTier: "Lame nageoire"
@@ -742,7 +742,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Plesioth Watercutter
         //Fend l'eau Plesioth
-        internal static MultiLangWeapon plesiothWatercutter = new MultiLangWeapon
+        internal readonly MultiLangWeapon plesiothWatercutter = new MultiLangWeapon
             (
             enAllTier: "Plesioth Watercutter",
             frAllTier: "Fend l'eau Plesioth"
@@ -750,7 +750,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Plesioth Aquablade
         //Lame eau Plesioth
-        internal static MultiLangWeapon plesiothAquablade = new MultiLangWeapon
+        internal readonly MultiLangWeapon plesiothAquablade = new MultiLangWeapon
             (
             enAllTier: "Plesioth Aquablade",
             frAllTier: "Lame eau Plesioth"
@@ -758,7 +758,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Plesioth Lullaby
         //Berceuse Plesioth
-        internal static MultiLangWeapon plesiothLullaby = new MultiLangWeapon
+        internal readonly MultiLangWeapon plesiothLullaby = new MultiLangWeapon
             (
             enAllTier: "Plesioth Lullaby",
             frAllTier: "Berceuse Plesioth"
@@ -766,7 +766,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Plesioth Lullabane
         //Berce fléau Plesioth
-        internal static MultiLangWeapon plesiothLullabane = new MultiLangWeapon
+        internal readonly MultiLangWeapon plesiothLullabane = new MultiLangWeapon
             (
             enAllTier: "Plesioth Lullabane",
             frAllTier: "Berce fléau Plesioth"
@@ -774,7 +774,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Frozen Speartuna
         //Lancethon gelée
-        internal static MultiLangWeapon frozenSpeartuna = new MultiLangWeapon
+        internal readonly MultiLangWeapon frozenSpeartuna = new MultiLangWeapon
             (
             enAllTier: "Frozen Speartuna",
             frAllTier: "Lancethon gelée"
@@ -782,7 +782,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Freezer Speartuna
         //Lancethon de gel
-        internal static MultiLangWeapon freezerSpeartuna = new MultiLangWeapon
+        internal readonly MultiLangWeapon freezerSpeartuna = new MultiLangWeapon
             (
             enAllTier: "Freezer Speartuna",
             frAllTier: "Lancethon de gel"
@@ -790,7 +790,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Xiphias Gladius
         //Gladius Xiphias
-        internal static MultiLangWeapon xiphiasGladius = new MultiLangWeapon
+        internal readonly MultiLangWeapon xiphiasGladius = new MultiLangWeapon
             (
             enAllTier: "Xiphias Gladius",
             frAllTier: "Gladius Xiphias"
@@ -798,7 +798,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Vulcanis
         //Vulcanis
-        internal static MultiLangWeapon vulcanis = new MultiLangWeapon
+        internal readonly MultiLangWeapon vulcanis = new MultiLangWeapon
             (
             enAllTier: "Vulcanis",
             frAllTier: "Vulcanis"
@@ -806,7 +806,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Vulcanis+
         //Vulcanis +
-        internal static MultiLangWeapon vulcanisPlus = new MultiLangWeapon
+        internal readonly MultiLangWeapon vulcanisPlus = new MultiLangWeapon
             (
             enAllTier: "Vulcanis+",
             frAllTier: "Vulcanis +"
@@ -814,7 +814,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Vulcanvil
         //Vulcanclume
-        internal static MultiLangWeapon vulcanvil = new MultiLangWeapon
+        internal readonly MultiLangWeapon vulcanvil = new MultiLangWeapon
             (
             enAllTier: "Vulcanvil",
             frAllTier: "Vulcanclume"
@@ -822,7 +822,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Vulcamagnon
         //Vulcamagnon
-        internal static MultiLangWeapon vulcamagnon = new MultiLangWeapon
+        internal readonly MultiLangWeapon vulcamagnon = new MultiLangWeapon
             (
             enAllTier: "Vulcamagnon",
             frAllTier: "Vulcamagnon"
@@ -830,7 +830,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Vulcatastrophe
         //Vulcatastrophe
-        internal static MultiLangWeapon vulcatastrophe = new MultiLangWeapon
+        internal readonly MultiLangWeapon vulcatastrophe = new MultiLangWeapon
             (
             enAllTier: "Vulcatastrophe",
             frAllTier: "Vulcatastrophe"
@@ -838,7 +838,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Vulca Vendetta
         //Vulca vendetta
-        internal static MultiLangWeapon vulcaVendetta = new MultiLangWeapon
+        internal readonly MultiLangWeapon vulcaVendetta = new MultiLangWeapon
             (
             enAllTier: "Vulca Vendetta",
             frAllTier: "Vulca Vendetta"
@@ -846,7 +846,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Rusted Great Sword
         //Grande épée rouillée
-        internal static MultiLangWeapon rustedGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon rustedGreatSword = new MultiLangWeapon
             (
             enAllTier: "Rusted Great Sword",
             frAllTier: "Grande épée rouillée"
@@ -854,7 +854,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Tarnished Great Sword
         //Grande épée ternie
-        internal static MultiLangWeapon tarnishedGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon tarnishedGreatSword = new MultiLangWeapon
             (
             enAllTier: "Tarnished Great Sword",
             frAllTier: "Grande épée ternie"
@@ -862,7 +862,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Ancient Blade
         //Lame antique
-        internal static MultiLangWeapon ancientBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon ancientBlade = new MultiLangWeapon
             (
             enAllTier: "Ancient Blade",
             frAllTier: "Lame antique"
@@ -870,7 +870,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Elder Monument
         //Monument antique
-        internal static MultiLangWeapon elderMonument = new MultiLangWeapon
+        internal readonly MultiLangWeapon elderMonument = new MultiLangWeapon
             (
             enAllTier: "Elder Monument",
             frAllTier: "Monument antique"
@@ -878,7 +878,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Eternal Glyph
         //Glyphe éternel
-        internal static MultiLangWeapon eternalGlyph = new MultiLangWeapon
+        internal readonly MultiLangWeapon eternalGlyph = new MultiLangWeapon
             (
             enAllTier: "Eternal Glyph",
             frAllTier: "Glyphe éternel"
@@ -886,7 +886,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Wyvern's Perch
         //Perche Wyvern
-        internal static MultiLangWeapon wyvernsPerch = new MultiLangWeapon
+        internal readonly MultiLangWeapon wyvernsPerch = new MultiLangWeapon
             (
             enAllTier: "Wyvern's Perch",
             frAllTier: "Perche Wyvern"
@@ -894,7 +894,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Roguish Deathcap
         //Calot de mort malin
-        internal static MultiLangWeapon roguishDeathcap = new MultiLangWeapon
+        internal readonly MultiLangWeapon roguishDeathcap = new MultiLangWeapon
             (
             enAllTier: "Roguish Deathcap",
             frAllTier: "Calot de mort malin"
@@ -902,7 +902,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lordly Deathcap
         //Calot de mort noble
-        internal static MultiLangWeapon lordlyDeathcap = new MultiLangWeapon
+        internal readonly MultiLangWeapon lordlyDeathcap = new MultiLangWeapon
             (
             enAllTier: "Lordly Deathcap",
             frAllTier: "Calot de mort noble"
@@ -910,7 +910,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Houma no Tsurugi
         //Houma no Tsurugi
-        internal static MultiLangWeapon houmaNoTsurugi = new MultiLangWeapon
+        internal readonly MultiLangWeapon houmaNoTsurugi = new MultiLangWeapon
             (
             enAllTier: "Houma no Tsurugi",
             frAllTier: "Houma no Tsurugi"
@@ -918,7 +918,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Tenma no Tsurugi
         //Tenma no Tsurugi
-        internal static MultiLangWeapon tenmaNoTsurugi = new MultiLangWeapon
+        internal readonly MultiLangWeapon tenmaNoTsurugi = new MultiLangWeapon
             (
             enAllTier: "Tenma no Tsurugi",
             frAllTier: "Tenma no Tsurugi"
@@ -926,7 +926,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Berserker Sword
         //Lame déchaînée
-        internal static MultiLangWeapon berserkerSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon berserkerSword = new MultiLangWeapon
             (
             enAllTier: "Berserker Sword",
             frAllTier: "Lame déchaînée"
@@ -934,7 +934,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Anguish
         //Supplice
-        internal static MultiLangWeapon anguish = new MultiLangWeapon
+        internal readonly MultiLangWeapon anguish = new MultiLangWeapon
             (
             enAllTier: "Anguish",
             frAllTier: "Supplice"
@@ -942,7 +942,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Nero's Anguish
         //Supplice de Néron
-        internal static MultiLangWeapon nerosAnguish = new MultiLangWeapon
+        internal readonly MultiLangWeapon nerosAnguish = new MultiLangWeapon
             (
             enAllTier: "Nero's Anguish",
             frAllTier: "Supplice de Néron"
@@ -950,7 +950,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Lion's Bane
         //Fléau du lion
-        internal static MultiLangWeapon lionsBane = new MultiLangWeapon
+        internal readonly MultiLangWeapon lionsBane = new MultiLangWeapon
             (
             enAllTier: "Lion's Bane",
             frAllTier: "Fléau du lion"
@@ -958,7 +958,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Alatreon Great Sword
         //Grande épée Alatreon
-        internal static MultiLangWeapon alatreonGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon alatreonGreatSword = new MultiLangWeapon
             (
             enAllTier: "Alatreon Great Sword",
             frAllTier: "Grande épée Alatreon"
@@ -966,7 +966,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Alatreon Revolution
         //Révolution Alatreon
-        internal static MultiLangWeapon alatreonRevolution = new MultiLangWeapon
+        internal readonly MultiLangWeapon alatreonRevolution = new MultiLangWeapon
             (
             enAllTier: "Alatreon Revolution",
             frAllTier: "Révolution Alatreon"
@@ -974,7 +974,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Altheos Evolutia
         //Evolutia Alatreon
-        internal static MultiLangWeapon altheosEvolutia = new MultiLangWeapon
+        internal readonly MultiLangWeapon altheosEvolutia = new MultiLangWeapon
             (
             enAllTier: "Altheos Evolutia",
             frAllTier: "Evolutia Alatreon"
@@ -982,7 +982,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Amethyst Blade
         //Lame améthyste
-        internal static MultiLangWeapon amethystBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon amethystBlade = new MultiLangWeapon
             (
             enAllTier: "Amethyst Blade",
             frAllTier: "Lame améthyste"
@@ -990,7 +990,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Miasmethyst
         //Miasméthyste
-        internal static MultiLangWeapon miasmethyst = new MultiLangWeapon
+        internal readonly MultiLangWeapon miasmethyst = new MultiLangWeapon
             (
             enAllTier: "Miasmethyst",
             frAllTier: "Miasméthyste"
@@ -998,7 +998,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Anima Reaper
         //Faucheur d'âme
-        internal static MultiLangWeapon animaReaper = new MultiLangWeapon
+        internal readonly MultiLangWeapon animaReaper = new MultiLangWeapon
             (
             enAllTier: "Anima Reaper",
             frAllTier: "Faucheur d'âme"
@@ -1006,7 +1006,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Eisenfaust
         //Eisenfaust
-        internal static MultiLangWeapon eisenfaust = new MultiLangWeapon
+        internal readonly MultiLangWeapon eisenfaust = new MultiLangWeapon
             (
             enAllTier: "Eisenfaust",
             frAllTier: "Eisenfaust"
@@ -1014,7 +1014,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Worn Great Sword
         //Grande épée usée
-        internal static MultiLangWeapon wornGreatSword = new MultiLangWeapon
+        internal readonly MultiLangWeapon wornGreatSword = new MultiLangWeapon
             (
             enAllTier: "Worn Great Sword",
             frAllTier: "Grande épée usée"
@@ -1022,7 +1022,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Weathered Great Swd
         //Grande épée effritée
-        internal static MultiLangWeapon weatheredGreatSwd = new MultiLangWeapon
+        internal readonly MultiLangWeapon weatheredGreatSwd = new MultiLangWeapon
             (
             enAllTier: "Weathered Great Swd",
             frAllTier: "Grande épée effritée"
@@ -1030,7 +1030,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Epitaph Blade
         //Lame épitaphe
-        internal static MultiLangWeapon epitaphBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon epitaphBlade = new MultiLangWeapon
             (
             enAllTier: "Epitaph Blade",
             frAllTier: "Lame épitaphe"
@@ -1038,7 +1038,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Epitaph Eternal
         //Épitaphe éternelle
-        internal static MultiLangWeapon epitaphEternal = new MultiLangWeapon
+        internal readonly MultiLangWeapon epitaphEternal = new MultiLangWeapon
             (
             enAllTier: "Epitaph Eternal",
             frAllTier: "Épitaphe éternelle"
@@ -1046,7 +1046,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Eclipse Blade
         //Lame de l'éclipse
-        internal static MultiLangWeapon eclipseBlade = new MultiLangWeapon
+        internal readonly MultiLangWeapon eclipseBlade = new MultiLangWeapon
             (
             enAllTier: "Eclipse Blade",
             frAllTier: "Lame de l'éclipse"
@@ -1054,7 +1054,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Merak's Asterism
         //Astérisme de Merak
-        internal static MultiLangWeapon meraksAsterism = new MultiLangWeapon
+        internal readonly MultiLangWeapon meraksAsterism = new MultiLangWeapon
             (
             enAllTier: "Merak's Asterism",
             frAllTier: "Astérisme de Merak"
@@ -1062,7 +1062,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //Megiddo Blaze
         //Brasier Megiddo
-        internal static MultiLangWeapon megiddoBlaze = new MultiLangWeapon
+        internal readonly MultiLangWeapon megiddoBlaze = new MultiLangWeapon
             (
             enAllTier: "Megiddo Blaze",
             frAllTier: "Brasier Megiddo"
@@ -1070,7 +1070,7 @@ namespace MH_Database.Ressources.MultiLangTexts.Weapons.GS
 
         //The Depotheosis
         //Depothosis
-        internal static MultiLangWeapon theDepotheosis = new MultiLangWeapon
+        internal readonly MultiLangWeapon theDepotheosis = new MultiLangWeapon
             (
             enAllTier: "The Depotheosis",
             frAllTier: "Depothosis"

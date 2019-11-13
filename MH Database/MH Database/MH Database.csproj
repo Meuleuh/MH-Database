@@ -93,6 +93,11 @@
     <Compile Include="Ressources\MultiLangTexts\Forms Components\Buttons.cs" />
     <Compile Include="Ressources\MultiLangTexts\Forms Components\Group Box.cs" />
     <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\Great Sword\MH3U.cs" />
+    <Compile Include="Ressources\Pictures\Rarities\Gen1-2\Weapons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Weapons.resx</DependentUpon>
+    </Compile>
     <Compile Include="Ressources\Pictures\Rarities\Gen3-4\Weapons.cs" />
     <Compile Include="Ressources\Pictures\Rarities\Gen3-4\Weapons.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -114,6 +119,10 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ressources\Pictures\Rarities\Gen1-2\Weapons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Weapons.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Ressources\Pictures\Rarities\Gen3-4\Weapons.resx">
       <Generator>ResXFileCodeGenerator</Generator>
