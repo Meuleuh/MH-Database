@@ -59,5 +59,555 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen1_2 {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Bow_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Bow_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Bow_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Bow_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bow_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Bow_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dual_Blades_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Dual_Blades_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dual_Blades_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Dual_Blades_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dual_Blades_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Dual_Blades_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dual_Blades_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Dual_Blades_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dual_Blades_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Dual_Blades_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Great_Sword_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Great_Sword_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Great_Sword_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Great_Sword_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Great_Sword_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Great_Sword_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Great_Sword_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Great_Sword_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Great_Sword_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Great_Sword_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gunlance_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Gunlance_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gunlance_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Gunlance_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gunlance_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Gunlance_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gunlance_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Gunlance_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gunlance_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Gunlance_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hammer_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Hammer_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hammer_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Hammer_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hammer_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Hammer_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hammer_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Hammer_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hammer_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Hammer_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heavy_Bowgun_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Heavy_Bowgun_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heavy_Bowgun_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Heavy_Bowgun_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heavy_Bowgun_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Heavy_Bowgun_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heavy_Bowgun_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Heavy_Bowgun_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Heavy_Bowgun_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Heavy_Bowgun_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hunting_Horn_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Hunting_Horn_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hunting_Horn_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Hunting_Horn_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hunting_Horn_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Hunting_Horn_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hunting_Horn_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Hunting_Horn_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hunting_Horn_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Hunting_Horn_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lance_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Lance_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lance_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Lance_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lance_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Lance_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lance_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Lance_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lance_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Lance_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Light_Bowgun_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Light_Bowgun_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Light_Bowgun_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Light_Bowgun_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Light_Bowgun_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Light_Bowgun_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Light_Bowgun_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Light_Bowgun_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Light_Bowgun_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Light_Bowgun_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Long_Sword_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Long_Sword_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Long_Sword_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Long_Sword_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Long_Sword_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Long_Sword_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Long_Sword_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Long_Sword_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Long_Sword_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Long_Sword_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sword_and_Shield_Rarity_1 {
+            get {
+                object obj = ResourceManager.GetObject("Sword_and_Shield_Rarity_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sword_and_Shield_Rarity_4 {
+            get {
+                object obj = ResourceManager.GetObject("Sword_and_Shield_Rarity_4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sword_and_Shield_Rarity_5 {
+            get {
+                object obj = ResourceManager.GetObject("Sword_and_Shield_Rarity_5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sword_and_Shield_Rarity_6 {
+            get {
+                object obj = ResourceManager.GetObject("Sword_and_Shield_Rarity_6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sword_and_Shield_Rarity_7 {
+            get {
+                object obj = ResourceManager.GetObject("Sword_and_Shield_Rarity_7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
