@@ -95,6 +95,7 @@
     <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\MH3U\GreatSwords.cs" />
     <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons.cs" />
     <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\MonsterHunter3U.cs" />
+    <Compile Include="Ressources\Pictures\Rarities\Gen1-2\Weapons.cs" />
     <Compile Include="Ressources\Pictures\Rarities\Gen1-2\Weapons.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
