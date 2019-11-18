@@ -139,12 +139,6 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Insect_Glaive_Rarity_X
         };
 
-        internal class Kinsect
-        {
-            readonly internal Bitmap Blunt   = new Bitmap(Weapons.Kinsect_Blunt);
-            readonly internal Bitmap Cutting = new Bitmap(Weapons.Kinsect_Cutting);
-        }
-
         readonly internal Bitmap[] Lance = new Bitmap[11]
         {
             null,                   //We keep 'null' so that [1] return the rarity 1 icon
@@ -219,5 +213,12 @@ namespace MH_Database.Ressources.Pictures.Rarities.Gen3_4
             Weapons.Sword_and_Shield_Rarity_9,
             Weapons.Sword_and_Shield_Rarity_X
         };
+
+        internal class KinsectClass
+        {
+            readonly internal Bitmap Blunt = new Bitmap(Weapons.Kinsect_Blunt);
+            readonly internal Bitmap Cutting = new Bitmap(Weapons.Kinsect_Cutting);
+        }
+        internal KinsectClass Kinsect = new KinsectClass();
     }
 }

@@ -463,6 +463,16 @@ namespace MH_Database.Ressources.Pictures.Rarities.MHW {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rare_11_mhw_kinsect_wiki {
+            get {
+                object obj = ResourceManager.GetObject("rare_11_mhw_kinsect_wiki", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rare_11_mhw_lance_wiki {
             get {
                 object obj = ResourceManager.GetObject("rare_11_mhw_lance_wiki", resourceCulture);

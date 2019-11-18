@@ -92,7 +92,9 @@
     </Compile>
     <Compile Include="Ressources\MultiLangTexts\Forms Components\Buttons.cs" />
     <Compile Include="Ressources\MultiLangTexts\Forms Components\Group Box.cs" />
-    <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\Great Sword\MH3U.cs" />
+    <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\MH3U\GreatSwords.cs" />
+    <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons.cs" />
+    <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\MonsterHunter3U.cs" />
     <Compile Include="Ressources\Pictures\Rarities\Gen1-2\Weapons.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -429,6 +431,7 @@
     <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\Blunt\rare-6-mauldrone-kinsect-tree.png" />
     <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\Blunt\rare-7-mauldrone-kinsect-tree.png" />
     <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\rare-10-mhw-kinsect-wiki1.png" />
+    <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\rare-11-mhw-kinsect-wiki.png" />
     <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\rare-12-mhw-kinsect-wiki.png" />
     <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\rare-9-mhw-kinsect-wiki1.png" />
     <Content Include="Ressources\Pictures\Rarities\MHW\Kinsect\Sever\rare-1-culldrone-kinsect-tree.png" />

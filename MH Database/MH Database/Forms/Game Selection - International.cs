@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MH_Database.Classes.MultiLang;
+using System;
 using System.Windows.Forms;
-using MH_Database.Classes.MultiLang;
 
 namespace MH_Database
 {
