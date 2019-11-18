@@ -71,6 +71,16 @@ namespace MH_Database.Properties {
         }
         
         /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Icon semblable à (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon Icône {
+            get {
+                object obj = ResourceManager.GetObject("Icône", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap US {
