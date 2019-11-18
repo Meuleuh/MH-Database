@@ -144,6 +144,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Ressources\Pictures\Rarities\Gen1-2\README.md" />
     <None Include="Ressources\Pictures\Rarities\Gen3-4\Sword and Shield\Sword_and_Shield_Rarity_8.png" />
   </ItemGroup>
   <ItemGroup>
