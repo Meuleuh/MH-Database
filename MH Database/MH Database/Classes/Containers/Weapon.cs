@@ -1,6 +1,6 @@
-﻿using System.Drawing;
+﻿using MH_Database.Classes.Elements;
 using MH_Database.Classes.MultiLang;
-using MH_Database.Classes.Elements;
+using System.Drawing;
 
 namespace MH_Database.Classes.Containers
 {
@@ -8,7 +8,7 @@ namespace MH_Database.Classes.Containers
     {
         internal MultiLangWeapon name;
         internal Rarity rarity;
-        internal Bitmap icon;
+        internal Bitmap picture;
         internal int attack;
         internal int true_attack;
         internal int defense;
@@ -24,11 +24,11 @@ namespace MH_Database.Classes.Containers
         //internal Craft craft //Will be implemented with the Craft class
         //internal List<Upgrades> upgrades = new List<Upgrades>(); //Will be implemented with the Upgrades class
 
-        Weapon(MultiLangWeapon name, Rarity rarity, Bitmap icon, int attack, int true_attack, int defense, int affinity, int[] slots)
+        internal Weapon(MultiLangWeapon name, Rarity rarity, Bitmap picture, int attack, int true_attack, int defense, int affinity, int[] slots)
         {
             this.name = name;
             this.rarity = rarity;
-            this.icon = icon;
+            this.picture = picture;
             this.attack = attack;
             this.true_attack = true_attack;
             this.defense = defense;

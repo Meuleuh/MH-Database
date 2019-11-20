@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
-using MH_Database.Ressources.Pictures.Rarities;
+﻿using System.Drawing;
 
 namespace MH_Database.Classes.Elements
 {

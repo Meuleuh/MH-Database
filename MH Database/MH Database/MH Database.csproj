@@ -93,6 +93,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Ressources\Items Data\Weapons Data\MH3U\GreatSwords.cs" />
+    <Compile Include="Ressources\Items Data\Weapons Data\MonsterHunter3U.cs" />
+    <Compile Include="Ressources\Items Data\Weapons.cs" />
     <Compile Include="Ressources\MultiLangTexts\Forms Components\Buttons.cs" />
     <Compile Include="Ressources\MultiLangTexts\Forms Components\Group Box.cs" />
     <Compile Include="Ressources\MultiLangTexts\Game Elements\Weapons\MH3U\GreatSwords.cs" />
@@ -510,8 +513,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Ressources\Weapons Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
