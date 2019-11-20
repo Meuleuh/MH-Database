@@ -62,6 +62,7 @@ namespace MH_Database.Classes.Elements
         {
             Ressources.Pictures.Rarities.Gen1_2.WeaponsIcons weaponsIconsGen1_2 = new Ressources.Pictures.Rarities.Gen1_2.WeaponsIcons();
             Ressources.Pictures.Rarities.Gen3_4.WeaponsIcons weaponsIconsGen3_4 = new Ressources.Pictures.Rarities.Gen3_4.WeaponsIcons();
+            Ressources.Pictures.Rarities.MHW.WeaponsIcons weaponsIconsGen5 = new Ressources.Pictures.Rarities.MHW.WeaponsIcons();
             this.rarity = rarity;
             switch ((int)tag)
             {
@@ -109,7 +110,125 @@ namespace MH_Database.Classes.Elements
                     icon = weaponsIconsGen3_4.Long_Sword[rarity];
                     break;
 
+                case 012:
+                    icon = weaponsIconsGen3_4.Sword_and_Shield[rarity];
+                    break;
 
+                case 013:
+                    icon = weaponsIconsGen3_4.Dual_Blades[rarity];
+                    break;
+
+                case 014:
+                    icon = weaponsIconsGen3_4.Hammer[rarity];
+                    break;
+
+                case 015:
+                    icon = weaponsIconsGen3_4.Hunting_Horn[rarity];
+                    break;
+
+                case 016:
+                    icon = weaponsIconsGen3_4.Lance[rarity];
+                    break;
+
+                case 017:
+                    icon = weaponsIconsGen3_4.Gunlance[rarity];
+                    break;
+
+                case 018:
+                    icon = weaponsIconsGen3_4.Switch_Axe[rarity];
+                    break;
+
+                case 019:
+                    icon = weaponsIconsGen3_4.Charge_Blade[rarity];
+                    break;
+
+                case 020:
+                    icon = weaponsIconsGen3_4.Insect_Glaive[rarity];
+                    break;
+
+                case 021:
+                    icon = weaponsIconsGen3_4.Light_Bowgun[rarity];
+                    break;
+
+                case 022:
+                    icon = weaponsIconsGen3_4.Heavy_Bowgun[rarity];
+                    break;
+
+                case 023:
+                    icon = weaponsIconsGen3_4.Bow[rarity];
+                    break;
+
+                case 024:
+                    icon = weaponsIconsGen3_4.Kinsect.Cutting;
+                    break;
+
+                case 025:
+                    icon = weaponsIconsGen3_4.Kinsect.Blunt;
+                    break;
+
+                case 026:
+                    icon = weaponsIconsGen5.Great_Sword[rarity];
+                    break;
+
+                case 027:
+                    icon = weaponsIconsGen5.Long_Sword[rarity];
+                    break;
+
+                case 028:
+                    icon = weaponsIconsGen5.Sword_and_Shield[rarity];
+                    break;
+
+                case 029:
+                    icon = weaponsIconsGen5.Dual_Blades[rarity];
+                    break;
+
+                case 030:
+                    icon = weaponsIconsGen5.Hammer[rarity];
+                    break;
+
+                case 031:
+                    icon = weaponsIconsGen5.Hunting_Horn[rarity];
+                    break;
+
+                case 032:
+                    icon = weaponsIconsGen5.Lance[rarity];
+                    break;
+
+                case 033:
+                    icon = weaponsIconsGen5.Gunlance[rarity];
+                    break;
+
+                case 034:
+                    icon = weaponsIconsGen5.Switch_Axe[rarity];
+                    break;
+
+                case 035:
+                    icon = weaponsIconsGen5.Charge_Blade[rarity];
+                    break;
+
+                case 036:
+                    icon = weaponsIconsGen5.Insect_Glaive[rarity];
+                    break;
+
+                case 037:
+                    icon = weaponsIconsGen5.Light_Bowgun[rarity];
+                    break;
+
+                case 038:
+                    icon = weaponsIconsGen5.Heavy_Bowgun[rarity];
+                    break;
+
+                case 039:
+                    icon = weaponsIconsGen5.Bow[rarity];
+                    break;
+
+                case 040:
+                    icon = weaponsIconsGen5.Kinsect.Cutting[rarity];
+                    break;
+
+                case 041:
+                    icon = weaponsIconsGen5.Kinsect.Blunt[rarity];
+                    break;
             }
         }
     }
