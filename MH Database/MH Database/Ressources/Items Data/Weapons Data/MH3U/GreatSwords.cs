@@ -267,6 +267,7 @@ namespace MH_Database.Ressources.Items_Data
                     (
                     name: greatSwordsName.goliathsScream,
                     rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    picture: null,
                     attack: 1440,
                     true_attack: 300,
                     defense: 35,
@@ -275,6 +276,24 @@ namespace MH_Database.Ressources.Items_Data
                     {
                         1,
                         1,
+                        0
+                    }
+                    );
+
+                //Hidden Blade
+                internal readonly Weapon hiddenBlade = new Weapon
+                    (
+                    name: greatSwordsName.hiddenBlade,
+                    rarity: new Classes.Elements.Rarity(6, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 25,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
                         0
                     }
                     );
