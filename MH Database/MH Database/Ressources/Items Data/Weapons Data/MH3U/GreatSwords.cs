@@ -315,6 +315,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Avidya Great Sword
+                internal readonly Weapon avidyaGreatSword = new Weapon
+                    (
+                    name: greatSwordsName.avidyaGreatSword,
+                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 40,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
