@@ -297,6 +297,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Dark of Night
+                internal readonly Weapon darkOfNight = new Weapon
+                    (
+                    name: greatSwordsName.darkOfNight,
+                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 30,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
