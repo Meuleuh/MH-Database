@@ -56,6 +56,14 @@ namespace MH_Database.Ressources.MultiLangTexts.Game_Elements
                     frAllTier: "Lame ravageuse"
                     );
 
+                //Ravager Blade+
+                //Lame ravageuse +
+                internal readonly MultiLangWeapon ravagerBladePlus = new MultiLangWeapon
+                    (
+                    enAllTier: "Ravager Blade+",
+                    frAllTier: "Lame ravageuse +"
+                    );
+
                 //Lacerator Blade
                 //Lame Lacerator
                 internal readonly MultiLangWeapon laceratorBlade = new MultiLangWeapon
