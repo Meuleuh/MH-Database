@@ -9,12 +9,26 @@ namespace MH_Database.Ressources.Items_Data
             internal class GreatSwords
             {
                 private static readonly MultiLangTexts.Game_Elements.Weapons.MonsterHunter3U.GreatSwords greatSwordsName = new MultiLangTexts.Game_Elements.Weapons.MonsterHunter3U.GreatSwords();
+                private static readonly Classes.Elements.Rarity[] rarityIcon =
+                    {
+                    null,
+                    new Classes.Elements.Rarity(1, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(2, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(3, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(4, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(5, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(6, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(7, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(8, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    new Classes.Elements.Rarity(10, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword)
+                };
 
                 //Iron Sword
                 internal readonly Weapon ironSword = new Weapon
                     (
                     name: greatSwordsName.ironSword,
-                    rarity: new Classes.Elements.Rarity(1, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[1],
                     picture: null,
                     attack: 336,
                     true_attack: 70,
@@ -32,7 +46,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon ironSwordPlus = new Weapon
                     (
                     name: greatSwordsName.ironSwordPlus,
-                    rarity: new Classes.Elements.Rarity(1, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[1],
                     picture: null,
                     attack: 384,
                     true_attack: 80,
@@ -50,7 +64,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon busterSword = new Weapon
                     (
                     name: greatSwordsName.busterSword,
-                    rarity: new Classes.Elements.Rarity(1, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[1],
                     picture: null,
                     attack: 432,
                     true_attack: 90,
@@ -68,7 +82,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon busterSwordPlus = new Weapon
                     (
                     name: greatSwordsName.busterSwordPlus,
-                    rarity: new Classes.Elements.Rarity(1, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[1],
                     picture: null,
                     attack: 528,
                     true_attack: 110,
@@ -86,7 +100,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon busterBlade = new Weapon
                     (
                     name: greatSwordsName.busterBlade,
-                    rarity: new Classes.Elements.Rarity(3, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[3],
                     picture: null,
                     attack: 624,
                     true_attack: 130,
@@ -104,7 +118,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon ravagerBlade = new Weapon
                     (
                     name: greatSwordsName.ravagerBlade,
-                    rarity: new Classes.Elements.Rarity(3, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[3],
                     picture: null,
                     attack: 672,
                     true_attack: 140,
@@ -122,7 +136,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon ravagerBladePlus = new Weapon
                     (
                     name: greatSwordsName.ravagerBladePlus,
-                    rarity: new Classes.Elements.Rarity(4, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[4],
                     picture: null,
                     attack: 768,
                     true_attack: 160,
@@ -140,7 +154,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon laceratorBlade = new Weapon
                     (
                     name: greatSwordsName.laceratorBlade,
-                    rarity: new Classes.Elements.Rarity(8, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[8],
                     picture: null,
                     attack: 1056,
                     true_attack: 220,
@@ -158,7 +172,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon devastatorBlade = new Weapon
                     (
                     name: greatSwordsName.devastatorBlade,
-                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[9],
                     picture: null,
                     attack: 1200,
                     true_attack: 250,
@@ -176,7 +190,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon chromeRazor = new Weapon
                     (
                     name: greatSwordsName.chromeRazor,
-                    rarity: new Classes.Elements.Rarity(8, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[8],
                     picture: null,
                     attack: 1008,
                     true_attack: 210,
@@ -194,7 +208,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon chromeQuietus = new Weapon
                     (
                     name: greatSwordsName.chromeQuietus,
-                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[9],
                     picture: null,
                     attack: 1152,
                     true_attack: 240,
@@ -212,7 +226,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon brazenwall = new Weapon
                     (
                     name: greatSwordsName.brazenwall,
-                    rarity: new Classes.Elements.Rarity(4, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[4],
                     picture: null,
                     attack: 912,
                     true_attack: 190,
@@ -230,7 +244,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon crimsonWall = new Weapon
                     (
                     name: greatSwordsName.crimsonwall,
-                    rarity: new Classes.Elements.Rarity(6, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[6],
                     picture: null,
                     attack: 1104,
                     true_attack: 230,
@@ -248,7 +262,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon cragscliff = new Weapon
                     (
                     name: greatSwordsName.cragscliff,
-                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[9],
                     picture: null,
                     attack: 1296,
                     true_attack: 270,
@@ -266,7 +280,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon goliathsScream = new Weapon
                     (
                     name: greatSwordsName.goliathsScream,
-                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[9],
                     picture: null,
                     attack: 1440,
                     true_attack: 300,
@@ -284,7 +298,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon hiddenBlade = new Weapon
                     (
                     name: greatSwordsName.hiddenBlade,
-                    rarity: new Classes.Elements.Rarity(6, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[6],
                     picture: null,
                     attack: 864,
                     true_attack: 180,
@@ -302,7 +316,7 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon darkOfNight = new Weapon
                     (
                     name: greatSwordsName.darkOfNight,
-                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[9],
                     picture: null,
                     attack: 1008,
                     true_attack: 210,
@@ -320,12 +334,30 @@ namespace MH_Database.Ressources.Items_Data
                 internal readonly Weapon avidyaGreatSword = new Weapon
                     (
                     name: greatSwordsName.avidyaGreatSword,
-                    rarity: new Classes.Elements.Rarity(9, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword),
+                    rarity: rarityIcon[9],
                     picture: null,
                     attack: 1104,
                     true_attack: 230,
                     defense: 0,
                     affinity: 40,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
+
+                //Type 41 Wyvernator
+                internal readonly Weapon type41Wyvernator = new Weapon
+                    (
+                    name: greatSwordsName.type41Wyvernator,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 672,
+                    true_attack: 140,
+                    defense: 5,
+                    affinity: 0,
                     slots: new int[3]
                     {
                         1,
