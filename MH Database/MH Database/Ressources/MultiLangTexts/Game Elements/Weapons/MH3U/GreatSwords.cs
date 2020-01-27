@@ -376,11 +376,11 @@ namespace MH_Database.Ressources.MultiLangTexts.Game_Elements
                     frAllTier: "Épée en corne Viking"
                     );
 
-                //Ancharius
+                //Ancharius Sword
                 //Épée Ancharius
-                internal readonly MultiLangWeapon ancharius = new MultiLangWeapon
+                internal readonly MultiLangWeapon anchariusSword = new MultiLangWeapon
                     (
-                    enAllTier: "Ancharius",
+                    enAllTier: "Ancharius Sword",
                     frAllTier: "Épée Ancharius"
                     );
 

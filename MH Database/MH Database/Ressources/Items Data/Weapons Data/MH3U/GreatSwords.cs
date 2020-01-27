@@ -851,6 +851,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Ancharius Sword
+                internal readonly Weapon anchariusSword = new Weapon
+                    (
+                    name: greatSwordsName.anchariusSword,
+                    rarity: rarityIcon[7],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
