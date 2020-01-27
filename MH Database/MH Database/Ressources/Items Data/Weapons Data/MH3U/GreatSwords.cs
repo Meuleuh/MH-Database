@@ -545,6 +545,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Neo Lagia Blade
+                internal readonly Weapon neoLagiaBlade = new Weapon
+                    (
+                    name: greatSwordsName.neoLagiaBlade,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
             }
         }
     }
