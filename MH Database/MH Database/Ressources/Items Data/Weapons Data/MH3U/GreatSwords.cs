@@ -576,9 +576,9 @@ namespace MH_Database.Ressources.Items_Data
                     affinity: 0,
                     slots: new int[3]
                     {
-                    1,
-                    1,
-                    0
+                        1,
+                        1,
+                        0
                     }
                     );
             }
