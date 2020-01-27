@@ -360,11 +360,11 @@ namespace MH_Database.Ressources.MultiLangTexts.Game_Elements
                     frAllTier: "Aurore boréale"
                     );
 
-                //Nothern Cross
+                //Northern Cross
                 //Croix du nord
-                internal readonly MultiLangWeapon nothernCross = new MultiLangWeapon
+                internal readonly MultiLangWeapon northernCross = new MultiLangWeapon
                     (
-                    enAllTier: "Nothern Cross",
+                    enAllTier: "Northern Cross",
                     frAllTier: "Croix du nord"
                     );
 

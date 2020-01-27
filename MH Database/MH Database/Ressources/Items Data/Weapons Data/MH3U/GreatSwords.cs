@@ -815,6 +815,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Northern Cross
+                internal readonly Weapon northernCross = new Weapon
+                    (
+                    name: greatSwordsName.northernCross,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: -10,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
