@@ -887,6 +887,180 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Bone Blade
+
+                //Bone Blade+
+
+                //Jawblade
+
+                //Giant Jawblade
+
+                //Red Wing
+
+                //Rathalos Firesword
+
+                //Rathalos Flamesword
+
+                //Blue Wing
+
+                //Rathalos Glinsword
+
+                //Rathalos Gleamsword
+
+                //Dios Blade
+
+                //Dios Blade+
+
+                //Demolition Sword
+
+                //Myxo Demolisher
+
+                //Valkyrie Blade
+
+                //Sieglinde
+
+                //High Sieglinde
+
+                //Titania
+
+                //Blushing Dame
+
+                //Ljósálfar
+
+                //Brünnhilde
+
+                //Siegmund
+
+                //High Siegmund
+
+                //Reddnaught
+
+                //Auberon
+
+                //Pale Kaiser
+
+                //Golem Blade
+
+                //Blade of Talos
+
+                //Blade of Tartarus
+
+                //Wyvern Jawblade
+
+                //Quarrel Hornsword
+
+                //Quarrel Hornsword+
+
+                //Doublie Diablos
+
+                //Cera Cigil
+
+                //Cera Cymmetry
+
+                //Ludroth Bone Sword
+
+                //Cataclysm Sword
+
+                //Cataclysm Blade
+
+                //Icicle Fang
+
+                //Icicle Fang+
+
+                //Paladire
+
+                //Galespike
+
+                //Simoom Sandbarb
+
+                //Simoom Sandbitter
+
+                //Finblade
+
+                //Plesioth Watercutter
+
+                //Plesioth Aquablade
+
+                //Plesioth Lullaby
+
+                //Plesioth Lullabane
+
+                //Frozen Speartuna
+
+                //Freezer Speartuna
+
+                //Xiphias Gladius
+
+                //Vulcanis
+
+                //Vulcanis+
+
+                //Vulcanvil
+
+                //Vulcamagnon
+
+                //Vulcatastrophe
+
+                //Vulca Vendetta
+
+                //Rusted Great Sword
+
+                //Tarnished Great Swd
+
+                //Ancient Blade
+
+                //Elder Monument
+
+                //Eternal Glyph
+
+                //Wyvern's Perch
+
+                //Roguish Deathcap
+
+                //Lordly Deathcap
+
+                //Houma no Tsurugi
+
+                //Tenma no Tsurugi
+
+                //Berserker Sword
+
+                //Anguish
+
+                //Nero's Anguish
+
+                //Lion's Bane
+
+                //Alatreon Great Sword
+
+                //Alatreon Revolution
+
+                //Altheos Evolutia
+
+                //Amethyst Blade
+
+                //Maismethyst
+
+                //Anima Reaper
+
+                //Eisenfaust
+
+                //Worn Great Sword
+
+                //Weathered Great Swd
+
+                //Epitaph Blade
+
+                //Epitaph Eternal
+
+                //Eclipse Blade
+
+                //Merak's Asterism
+
+                //Megiddo Blaze
+
+                //The Depotheosis
             }
         }
     }
