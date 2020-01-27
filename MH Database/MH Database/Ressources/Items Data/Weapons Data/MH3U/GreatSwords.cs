@@ -491,6 +491,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //High Lagia Blade
+                internal readonly Weapon highLagiaBlade = new Weapon
+                    (
+                    name: greatSwordsName.highLagiaBlade,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
