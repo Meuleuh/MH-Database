@@ -509,6 +509,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Lagia Lightning
+                internal readonly Weapon lagiaLightning = new Weapon
+                    (
+                    name: greatSwordsName.lagiaLightning,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
