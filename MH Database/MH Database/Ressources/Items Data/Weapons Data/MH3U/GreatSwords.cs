@@ -653,6 +653,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Nether Great Sword
+                internal readonly Weapon netherGreatSword = new Weapon
+                    (
+                    name: greatSwordsName.netherGreatSword,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
