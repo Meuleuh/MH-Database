@@ -797,6 +797,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Northern Lights
+                internal readonly Weapon northernLights = new Weapon
+                    (
+                    name: greatSwordsName.northernLights,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: -15,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }

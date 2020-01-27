@@ -352,11 +352,11 @@ namespace MH_Database.Ressources.MultiLangTexts.Game_Elements
                     frAllTier: "Lame aurore"
                     );
 
-                //Nothern Lights
+                //Northern Lights
                 //Aurore boréale
-                internal readonly MultiLangWeapon nothernLights = new MultiLangWeapon
+                internal readonly MultiLangWeapon northernLights = new MultiLangWeapon
                     (
-                    enAllTier: "Nothern Lights",
+                    enAllTier: "Northern Lights",
                     frAllTier: "Aurore boréale"
                     );
 
