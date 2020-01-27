@@ -563,6 +563,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Lagia Fulmination
+                internal readonly Weapon lagiaFulmination = new Weapon
+                    (
+                    name: greatSwordsName.lagiaFulmination,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1248,
+                    true_attack: 260,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                    1,
+                    1,
+                    0
+                    }
+                    );
             }
         }
     }
