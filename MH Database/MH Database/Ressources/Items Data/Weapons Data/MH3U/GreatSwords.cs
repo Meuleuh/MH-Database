@@ -401,6 +401,24 @@ namespace MH_Database.Ressources.Items_Data
                         1
                     }
                     );
+
+                //Rugged Great Sword
+                internal readonly Weapon ruggedGreatSword = new Weapon
+                    (
+                    name: greatSwordsName.ruggedGreatSword,
+                    rarity: rarityIcon[1],
+                    picture: null,
+                    attack: 528,
+                    true_attack: 110,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
