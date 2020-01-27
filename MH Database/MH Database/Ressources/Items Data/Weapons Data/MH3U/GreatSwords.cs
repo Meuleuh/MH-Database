@@ -419,6 +419,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Chieftain's Grt Swd
+                internal readonly Weapon chieftainsGrtSwd = new Weapon
+                    (
+                    name: greatSwordsName.chieftainsGrtSwd,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 576,
+                    true_attack: 120,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
             }
         }
     }
