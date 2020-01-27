@@ -761,6 +761,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Barroth Smasher
+                internal readonly Weapon barrothSmasher = new Weapon
+                    (
+                    name: greatSwordsName.barrothSmasher,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 816,
+                    true_attack: 170,
+                    defense: 0,
+                    affinity: -25,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
