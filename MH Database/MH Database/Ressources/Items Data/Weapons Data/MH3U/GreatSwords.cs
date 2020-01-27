@@ -383,6 +383,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Remalgagorgon
+                internal readonly Weapon remalgagorgon = new Weapon
+                    (
+                    name: greatSwordsName.remalgagorgon,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 1056,
+                    true_attack: 220,
+                    defense: 15,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
             }
         }
     }
