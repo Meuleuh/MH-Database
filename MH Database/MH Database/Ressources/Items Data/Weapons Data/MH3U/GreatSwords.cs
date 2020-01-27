@@ -779,6 +779,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Aurora Blade
+                internal readonly Weapon auroraBlade = new Weapon
+                    (
+                    name: greatSwordsName.auroraBlade,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: -20,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
