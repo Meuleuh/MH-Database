@@ -581,6 +581,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Usurper's Storm
+                internal readonly Weapon usurpersStorm = new Weapon
+                    (
+                    name: greatSwordsName.usurpersStorm,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
