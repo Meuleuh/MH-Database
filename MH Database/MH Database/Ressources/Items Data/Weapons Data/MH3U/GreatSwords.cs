@@ -527,6 +527,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Lagia Wildfire
+                internal readonly Weapon lagiaWildfire = new Weapon
+                    (
+                    name: greatSwordsName.lagiaWildfire,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
             }
         }
     }
