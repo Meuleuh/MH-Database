@@ -599,6 +599,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Despot's Blackstorm
+                internal readonly Weapon despotsBlackstorm = new Weapon
+                    (
+                    name: greatSwordsName.despotsBlackstorm,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
