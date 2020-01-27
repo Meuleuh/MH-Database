@@ -707,6 +707,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Stygian Acedia
+                internal readonly Weapon stygianAcedia = new Weapon
+                    (
+                    name: greatSwordsName.stygianAcedia,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1248,
+                    true_attack: 260,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
             }
         }
     }
