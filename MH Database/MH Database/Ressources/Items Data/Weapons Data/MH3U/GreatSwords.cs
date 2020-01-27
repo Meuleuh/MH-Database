@@ -437,6 +437,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //High Chief's Grt Swd
+                internal readonly Weapon highChiefsGrtSwd = new Weapon
+                    (
+                    name: greatSwordsName.highChiefsGrtSwd,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 912,
+                    true_attack: 190,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
             }
         }
     }
