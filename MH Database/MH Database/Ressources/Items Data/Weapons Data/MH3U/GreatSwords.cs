@@ -725,6 +725,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Carapace Sword
+                internal readonly Weapon carapaceSword = new Weapon
+                    (
+                    name: greatSwordsName.carapaceSword,
+                    rarity: rarityIcon[2],
+                    picture: null,
+                    attack: 576,
+                    true_attack: 120,
+                    defense: 0,
+                    affinity: -30,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
