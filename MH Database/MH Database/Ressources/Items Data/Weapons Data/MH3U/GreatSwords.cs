@@ -671,6 +671,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Nether Lufactrus
+                internal readonly Weapon netherLufactrus = new Weapon
+                    (
+                    name: greatSwordsName.netherLufactrus,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
