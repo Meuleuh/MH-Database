@@ -869,6 +869,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Excalius Sword
+                internal readonly Weapon excaliusSword = new Weapon
+                    (
+                    name: greatSwordsName.excaliusSword,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
