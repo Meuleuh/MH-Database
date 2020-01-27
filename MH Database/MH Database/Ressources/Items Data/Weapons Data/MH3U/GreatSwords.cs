@@ -635,6 +635,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Orcus Tonitrus
+                internal readonly Weapon orcusTonitrus = new Weapon
+                    (
+                    name: greatSwordsName.orcusTonitrus,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
