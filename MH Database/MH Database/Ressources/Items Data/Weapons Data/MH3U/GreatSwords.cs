@@ -617,6 +617,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Oppressor's Forger
+                internal readonly Weapon oppressorsForger = new Weapon
+                    (
+                    name: greatSwordsName.oppressorsForger,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
