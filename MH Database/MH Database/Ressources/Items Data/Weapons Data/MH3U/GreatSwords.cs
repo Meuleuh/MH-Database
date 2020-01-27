@@ -455,6 +455,24 @@ namespace MH_Database.Ressources.Items_Data
                         1
                     }
                     );
+
+                //Lagiacrus Blade
+                internal readonly Weapon lagiacrusBlade = new Weapon
+                    (
+                    name: greatSwordsName.lagiacrusBlade,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 624,
+                    true_attack: 130,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
