@@ -833,6 +833,24 @@ namespace MH_Database.Ressources.Items_Data
                         0
                     }
                     );
+
+                //Viking Hornsword
+                internal readonly Weapon vikingHornsword = new Weapon
+                    (
+                    name: greatSwordsName.vikingHornsword,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }
