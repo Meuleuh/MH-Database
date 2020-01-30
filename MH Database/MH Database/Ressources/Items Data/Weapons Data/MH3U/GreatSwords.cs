@@ -889,32 +889,256 @@ namespace MH_Database.Ressources.Items_Data
                     );
 
                 //Bone Blade
+                internal readonly Weapon boneBlade = new Weapon
+                    (
+                    name: greatSwordsName.boneBlade,
+                    rarity: rarityIcon[1],
+                    picture: null,
+                    attack: 384,
+                    true_attack: 80,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Bone Blade+
+                internal readonly Weapon boneBladePlus = new Weapon
+                    (
+                    name: greatSwordsName.boneBladePlus,
+                    rarity: rarityIcon[1],
+                    picture: null,
+                    attack: 432,
+                    true_attack: 90,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Jawblade
+                internal readonly Weapon jawblade = new Weapon
+                    (
+                    name: greatSwordsName.jawblade,
+                    rarity: rarityIcon[1],
+                    picture: null,
+                    attack: 528,
+                    true_attack: 110,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Giant Jawblade
+                internal readonly Weapon giantJawblade = new Weapon
+                    (
+                    name: greatSwordsName.giantJawblade,
+                    rarity: rarityIcon[2],
+                    picture: null,
+                    attack: 576,
+                    true_attack: 120,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Red Wing
+                internal readonly Weapon redWing = new Weapon
+                    (
+                    name: greatSwordsName.redWing,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 720,
+                    true_attack: 150,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Rathalos Firesword
+                internal readonly Weapon rathalosFiresword = new Weapon
+                    (
+                    name: greatSwordsName.rathalosFiresword,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Rathalos Flamesword
+                internal readonly Weapon rathalosFlamesword = new Weapon
+                    (
+                    name: greatSwordsName.rathalosFlamesword,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Blue Wing
+                internal readonly Weapon blueWing = new Weapon
+                    (
+                    name: greatSwordsName.blueWing,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Rathalos Glinsword
+                internal readonly Weapon rathalosGlinsword = new Weapon
+                    (
+                    name: greatSwordsName.rathalosGlinsword,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Rathalos Gleamsword
+                internal readonly Weapon rathalosGleamsword = new Weapon
+                    (
+                    name: greatSwordsName.rathalosGleamsword,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1248,
+                    true_attack: 260,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Dios Blade
+                internal readonly Weapon diosBlade = new Weapon
+                    (
+                    name: greatSwordsName.diosBlade,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 912,
+                    true_attack: 190,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Dios Blade+
+                internal readonly Weapon diosBladePlus = new Weapon
+                    (
+                    name: greatSwordsName.diosBladePlus,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Demolition Sword
+                internal readonly Weapon demolitionSword = new Weapon
+                    (
+                    name: greatSwordsName.demolitionSword,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Myxo Demolisher
+                internal readonly Weapon myxoDemolisher = new Weapon
+                    (
+                    name: greatSwordsName.myxoDemolisher,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1248,
+                    true_attack: 260,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Valkyrie Blade
 
