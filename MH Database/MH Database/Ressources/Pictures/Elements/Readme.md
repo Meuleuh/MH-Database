@@ -1,0 +1,3 @@
+﻿I know this folder contains no picture at all...
+
+It simply is because every icons used are stored into the status effects
