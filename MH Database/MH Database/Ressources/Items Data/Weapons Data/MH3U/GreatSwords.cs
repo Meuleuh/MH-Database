@@ -1141,150 +1141,1318 @@ namespace MH_Database.Ressources.Items_Data
                     );
 
                 //Valkyrie Blade
+                internal readonly Weapon valkyrieBlade = new Weapon
+                    (
+                    name: greatSwordsName.valkyrieBlade,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 672,
+                    true_attack: 140,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Sieglinde
+                internal readonly Weapon sieglinde = new Weapon
+                    (
+                    name: greatSwordsName.sieglinde,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 720,
+                    true_attack: 150,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //High Sieglinde
+                internal readonly Weapon highSieglinde = new Weapon
+                    (
+                    name: greatSwordsName.highSieglinde,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Titania
+                internal readonly Weapon titania = new Weapon
+                    (
+                    name: greatSwordsName.titania,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Blushing Dame
+                internal readonly Weapon blushingDame = new Weapon
+                    (
+                    name: greatSwordsName.blushingDame,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Ljósálfar
+                internal readonly Weapon ljósálfar = new Weapon
+                    (
+                    name: greatSwordsName.ljósálfar,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1056,
+                    true_attack: 220,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Brünnhilde
+                internal readonly Weapon brünnhilde = new Weapon
+                    (
+                    name: greatSwordsName.brünnhilde,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1200,
+                    true_attack: 250,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
 
                 //Siegmund
+                internal readonly Weapon siegmund = new Weapon
+                    (
+                    name: greatSwordsName.siegmund,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 15,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //High Siegmund
+                internal readonly Weapon highSiegmund = new Weapon
+                    (
+                    name: greatSwordsName.highSiegmund,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 20,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Reddnaught
+                internal readonly Weapon reddnaught = new Weapon
+                    (
+                    name: greatSwordsName.reddnaught,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 25,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
 
                 //Auberon
+                internal readonly Weapon auberon = new Weapon
+                    (
+                    name: greatSwordsName.auberon,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 5,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Pale Kaiser
+                internal readonly Weapon paleKaiser = new Weapon
+                    (
+                    name: greatSwordsName.paleKaiser,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1200,
+                    true_attack: 250,
+                    defense: 0,
+                    affinity: 15,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
 
                 //Golem Blade
+                internal readonly Weapon golemBlade = new Weapon
+                    (
+                    name: greatSwordsName.golemBlade,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 720,
+                    true_attack: 150,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Blade of Talos
+                internal readonly Weapon bladeOfTalos = new Weapon
+                    (
+                    name: greatSwordsName.bladeOfTalos,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Blade of Tartarus
+                internal readonly Weapon bladeOfTartarus = new Weapon
+                    (
+                    name: greatSwordsName.bladeOfTartarus,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 1344,
+                    true_attack: 280,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Wyvern Jawblade
+                internal readonly Weapon wyvernJawblade = new Weapon
+                    (
+                    name: greatSwordsName.wyvernJawblade,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 720,
+                    true_attack: 150,
+                    defense: 10,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Quarrel Hornsword
+                internal readonly Weapon quarrelHornsword = new Weapon
+                    (
+                    name: greatSwordsName.quarrelHornsword,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 12,
+                    affinity: -5,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Quarrel Hornsword+
+                internal readonly Weapon quarrelHornswordPlus = new Weapon
+                    (
+                    name: greatSwordsName.quarrelHornswordPlus,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 15,
+                    affinity: -5,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Doublie Diablos
+                internal readonly Weapon doubleDiablos = new Weapon
+                    (
+                    name: greatSwordsName.doubleDiablos,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 18,
+                    affinity: -10,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Cera Cigil
+                internal readonly Weapon ceraCigil = new Weapon
+                    (
+                    name: greatSwordsName.ceraCigil,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1392,
+                    true_attack: 290,
+                    defense: 21,
+                    affinity: -20,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Cera Cymmetry
+                internal readonly Weapon ceraCymmetry = new Weapon
+                    (
+                    name: greatSwordsName.ceraCymmmetry,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1488,
+                    true_attack: 310,
+                    defense: 24,
+                    affinity: -20,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Ludroth Bone Sword
+                internal readonly Weapon ludrothBoneSword = new Weapon
+                    (
+                    name: greatSwordsName.ludrothBoneSword,
+                    rarity: rarityIcon[1],
+                    picture: null,
+                    attack: 528,
+                    true_attack: 110,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Cataclysm Sword
+                internal readonly Weapon cataclysmSword = new Weapon
+                    (
+                    name: greatSwordsName.cataclysmSword,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 624,
+                    true_attack: 130,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Cataclysm Blade
+                internal readonly Weapon cataclysmBlade = new Weapon
+                    (
+                    name: greatSwordsName.cataclysmBlade,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 672,
+                    true_attack: 140,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Icicle Fang
+                internal readonly Weapon icicleFang = new Weapon
+                    (
+                    name: greatSwordsName.icicleFang,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 10,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Icicle Fang+
+                internal readonly Weapon icicleFangPlus = new Weapon
+                    (
+                    name: greatSwordsName.icicleFangPlus,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 912,
+                    true_attack: 190,
+                    defense: 0,
+                    affinity: 15,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Paladire
+                internal readonly Weapon paladire = new Weapon
+                    (
+                    name: greatSwordsName.paladire,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 20,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Galespike
+                internal readonly Weapon galespike = new Weapon
+                    (
+                    name: greatSwordsName.galespike,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 20,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Simoom Sandbarb
+                internal readonly Weapon simoomSandbarb = new Weapon
+                    (
+                    name: greatSwordsName.simoomSandbarb,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 25,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Simoom Sandbitter
+                internal readonly Weapon simoomSandbiter = new Weapon
+                    (
+                    name: greatSwordsName.simoomSandbiter,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 35,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Finblade
+                internal readonly Weapon finblade = new Weapon
+                    (
+                    name: greatSwordsName.finblade,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 816,
+                    true_attack: 170,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Plesioth Watercutter
+                internal readonly Weapon plesiothWatercutter = new Weapon
+                    (
+                    name: greatSwordsName.plesiothWatercutter,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Plesioth Aquablade
+                internal readonly Weapon plesiothAquablade = new Weapon
+                    (
+                    name: greatSwordsName.plesiothAquablade,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1248,
+                    true_attack: 260,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Plesioth Lullaby
+                internal readonly Weapon plesiothLullaby = new Weapon
+                    (
+                    name: greatSwordsName.plesiothLullaby,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 912,
+                    true_attack: 190,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Plesioth Lullabane
+                internal readonly Weapon plesiothLullabane = new Weapon
+                    (
+                    name: greatSwordsName.plesiothLullabane,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Frozen Speartuna
+                internal readonly Weapon frozenSpeartuna = new Weapon
+                    (
+                    name: greatSwordsName.frozenSpeartuna,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 672,
+                    true_attack: 140,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Freezer Speartuna
+                internal readonly Weapon freezerSpeartuna = new Weapon
+                    (
+                    name: greatSwordsName.freezerSpeartuna,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 816,
+                    true_attack: 170,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Xiphias Gladius
+                internal readonly Weapon xiphiasGladius = new Weapon
+                    (
+                    name: greatSwordsName.xiphiasGladius,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 912,
+                    true_attack: 190,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Vulcanis
+                internal readonly Weapon vulcanis = new Weapon
+                    (
+                    name: greatSwordsName.vulcanis,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 624,
+                    true_attack: 130,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Vulcanis+
+                internal readonly Weapon vulcanisPlus = new Weapon
+                    (
+                    name: greatSwordsName.vulcanisPlus,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 672,
+                    true_attack: 140,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Vulcanvil
+                internal readonly Weapon vulcanvil = new Weapon
+                    (
+                    name: greatSwordsName.vulcanvil,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 768,
+                    true_attack: 160,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Vulcamagnon
+                internal readonly Weapon vulcamagnon = new Weapon
+                    (
+                    name: greatSwordsName.vulcamagnon,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 816,
+                    true_attack: 170,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Vulcatastrophe
+                internal readonly Weapon vulcatastrophe = new Weapon
+                    (
+                    name: greatSwordsName.vulcatastrophe,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
 
                 //Vulca Vendetta
+                internal readonly Weapon vulcaVendetta = new Weapon
+                    (
+                    name: greatSwordsName.vulcaVendetta,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        1
+                    }
+                    );
 
                 //Rusted Great Sword
+                internal readonly Weapon rustedGreatSword = new Weapon
+                    (
+                    name: greatSwordsName.rustedGreatSword,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 480,
+                    true_attack: 100,
+                    defense: 0,
+                    affinity: -70,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Tarnished Great Swd
+                internal readonly Weapon tarnishedGreatSwd = new Weapon
+                    (
+                    name: greatSwordsName.tarnishedGreatSword,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 480,
+                    true_attack: 100,
+                    defense: 0,
+                    affinity: -70,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Ancient Blade
+                internal readonly Weapon ancientBlade = new Weapon
+                    (
+                    name: greatSwordsName.ancientBlade,
+                    rarity: rarityIcon[3],
+                    picture: null,
+                    attack: 720,
+                    true_attack: 150,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Elder Monument
+                internal readonly Weapon elderMonument = new Weapon
+                    (
+                    name: greatSwordsName.elderMonument,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 816,
+                    true_attack: 170,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Eternal Glyph
+                internal readonly Weapon eternalGlyph = new Weapon
+                    (
+                    name: greatSwordsName.eternalGlyph,
+                    rarity: rarityIcon[5],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Wyvern's Perch
+                internal readonly Weapon wyvernsPerch = new Weapon
+                    (
+                    name: greatSwordsName.wyvernsPerch,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 576,
+                    true_attack: 120,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Roguish Deathcap
+                internal readonly Weapon roguishDeathcap = new Weapon
+                    (
+                    name: greatSwordsName.roguishDeathcap,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 720,
+                    true_attack: 150,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Lordly Deathcap
+                internal readonly Weapon lordlyDeathcap = new Weapon
+                    (
+                    name: greatSwordsName.lordlyDeathcap,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 912,
+                    true_attack: 190,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Houma no Tsurugi
+                internal readonly Weapon houmaNoTsurugi = new Weapon
+                    (
+                    name: greatSwordsName.houmaNoTsurugi,
+                    rarity: rarityIcon[4],
+                    picture: null,
+                    attack: 672,
+                    true_attack: 140,
+                    defense: 8,
+                    affinity: 10,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Tenma no Tsurugi
+                internal readonly Weapon tenmaNoTsurugi = new Weapon
+                    (
+                    name: greatSwordsName.tenmaNoTsurugi,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 10,
+                    affinity: 15,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Berserker Sword
+                internal readonly Weapon berserkerSword = new Weapon
+                    (
+                    name: greatSwordsName.berserkerSword,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Anguish
+                internal readonly Weapon anguish = new Weapon
+                    (
+                    name: greatSwordsName.anguish,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1248,
+                    true_attack: 260,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Nero's Anguish
+                internal readonly Weapon nerosAnguish = new Weapon
+                    (
+                    name: greatSwordsName.nerosAnguish,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1392,
+                    true_attack: 290,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Lion's Bane
+                internal readonly Weapon lionsBande = new Weapon
+                    (
+                    name: greatSwordsName.lionsBane,
+                    rarity: rarityIcon[6],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Alatreon Great Sword
+                internal readonly Weapon alatreonGreatSword = new Weapon
+                    (
+                    name: greatSwordsName.alatreonGreatSword,
+                    rarity: rarityIcon[7],
+                    picture: null,
+                    attack: 864,
+                    true_attack: 180,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Alatreon Revolution
+                internal readonly Weapon alatreonRevolution = new Weapon
+                    (
+                    name: greatSwordsName.alatreonRevolution,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1056,
+                    true_attack: 220,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Altheos Evolutia
+                internal readonly Weapon altheosEvolutia = new Weapon
+                    (
+                    name: greatSwordsName.altheosEvolutia,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1200,
+                    true_attack: 250,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Amethyst Blade
+                internal readonly Weapon amethystBlade = new Weapon
+                    (
+                    name: greatSwordsName.amethystBlade,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Maismethyst
+                internal readonly Weapon miasmethyst = new Weapon
+                    (
+                    name: greatSwordsName.miasmethyst,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Anima Reaper
+                internal readonly Weapon animaReaper = new Weapon
+                    (
+                    name: greatSwordsName.animaReaper,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1104,
+                    true_attack: 230,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        1,
+                        0
+                    }
+                    );
 
                 //Eisenfaust
+                internal readonly Weapon eisenfaust = new Weapon
+                    (
+                    name: greatSwordsName.eisenfaust,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1440,
+                    true_attack: 300,
+                    defense: 0,
+                    affinity: -50,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Worn Great Sword
+                internal readonly Weapon wornGreatSword = new Weapon
+                    (
+                    name: greatSwordsName.wornGreatSword,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 480,
+                    true_attack: 100,
+                    defense: 0,
+                    affinity: -70,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Weathered Great Swd
+                internal readonly Weapon weatheredGreatSwd = new Weapon
+                    (
+                    name: greatSwordsName.weatheredGreatSwd,
+                    rarity: rarityIcon[8],
+                    picture: null,
+                    attack: 528,
+                    true_attack: 110,
+                    defense: 0,
+                    affinity: -70,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //Epitaph Blade
+                internal readonly Weapon epitaphBlade = new Weapon
+                    (
+                    name: greatSwordsName.epitaphBlade,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 960,
+                    true_attack: 200,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Epitaph Eternal
+                internal readonly Weapon epitaphEternal = new Weapon
+                    (
+                    name: greatSwordsName.epitaphEternal,
+                    rarity: rarityIcon[9],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Eclipse Blade
+                internal readonly Weapon eclipseBlade = new Weapon
+                    (
+                    name: greatSwordsName.eclipseBlade,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1056,
+                    true_attack: 220,
+                    defense: 0,
+                    affinity: 20,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Merak's Asterism
+                internal readonly Weapon meraksAsterism = new Weapon
+                    (
+                    name: greatSwordsName.meraksAsterism,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1152,
+                    true_attack: 240,
+                    defense: 0,
+                    affinity: 30,
+                    slots: new int[3]
+                    {
+                        1,
+                        0,
+                        0
+                    }
+                    );
 
                 //Megiddo Blaze
+                internal readonly Weapon megiddoBlaze = new Weapon
+                    (
+                    name: greatSwordsName.megiddoBlaze,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1008,
+                    true_attack: 210,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
 
                 //The Depotheosis
+                internal readonly Weapon theDepotheosis = new Weapon
+                    (
+                    name: greatSwordsName.theDepotheosis,
+                    rarity: rarityIcon[10],
+                    picture: null,
+                    attack: 1056,
+                    true_attack: 220,
+                    defense: 0,
+                    affinity: 0,
+                    slots: new int[3]
+                    {
+                        0,
+                        0,
+                        0
+                    }
+                    );
             }
         }
     }

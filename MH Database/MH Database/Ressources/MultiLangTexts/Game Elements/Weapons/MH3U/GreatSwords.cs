@@ -736,11 +736,11 @@ namespace MH_Database.Ressources.MultiLangTexts.Game_Elements
                     frAllTier: "Simoun sable"
                     );
 
-                //Simoom Sandbitter
+                //Simoom Sandbiter
                 //Simoun Mord sable
-                internal readonly MultiLangWeapon simoomSandbitter = new MultiLangWeapon
+                internal readonly MultiLangWeapon simoomSandbiter = new MultiLangWeapon
                     (
-                    enAllTier: "Simoom Sandbitter",
+                    enAllTier: "Simoom Sandbiter",
                     frAllTier: "Simoun Mord sable"
                     );
 
