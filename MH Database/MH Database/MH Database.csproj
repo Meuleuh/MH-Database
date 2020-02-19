@@ -73,6 +73,8 @@
     <Compile Include="Classes\MultiLang\MultiLang.cs" />
     <Compile Include="Classes\MultiLang\MultiLangGroupBox.cs" />
     <Compile Include="Classes\MultiLang\MultiLangButton.cs" />
+    <Compile Include="Classes\MultiLang\MultiLangDescription.cs" />
+    <Compile Include="Classes\MultiLang\MultiLangItem.cs" />
     <Compile Include="Classes\MultiLang\MultiLangWeapon.cs" />
     <Compile Include="Forms\Game Selection - International.cs">
       <SubType>Form</SubType>

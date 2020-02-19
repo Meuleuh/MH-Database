@@ -7,6 +7,7 @@ namespace MH_Database.Classes.Containers
     class Weapon
     {
         internal MultiLangWeapon name;
+        internal MultiLangDescription description; //Need to be added to the initializer and to each weapons
         internal Rarity rarity;
         internal Bitmap picture;
         internal int attack;
