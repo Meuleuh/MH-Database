@@ -8,7 +8,18 @@ namespace MH_Database.Ressources.Items_Data
         {
             internal class GreatSwords
             {
+                //////////////////
+                // Index needed //
+                //////////////////
+
+                //Look for the MultiLangWeapon database linked to those sword specificly
                 private static readonly MultiLangTexts.Game_Elements.Weapons.MonsterHunter3U.GreatSwords greatSwordsName = new MultiLangTexts.Game_Elements.Weapons.MonsterHunter3U.GreatSwords();
+
+                ///////////////////////
+                // Contraption tools //
+                ///////////////////////
+
+                //Index of the rarities for this type of weapon and this generation, allowing useful contraptions upon setting up stats and avoiding creating hundreads of rarity instances which could end up loading memory more than intended
                 private static readonly Classes.Elements.Rarity[] rarityIcon =
                     {
                     null,
@@ -24,6 +35,19 @@ namespace MH_Database.Ressources.Items_Data
                     new Classes.Elements.Rarity(10, Classes.Elements.Rarity.tag.Gen_Three_Four_Great_Sword)
                 };
 
+                //Index of possibles slots, allowing useful contraptions upon setting up slots and avoiding creating hundreads of different array while those const are enough
+                private static readonly int[][] slots = new int[4][]
+                {
+                    new int[3] {0, 0, 0 },
+                    new int[3] {1, 0, 0 },
+                    new int[3] {1, 1, 0 },
+                    new int[3] {1, 1, 1 }
+                };
+
+                ///////////////////////////////////////////
+                // Monster Hunter 3 Ultimate Greatswords //
+                ///////////////////////////////////////////
+
                 //Iron Sword
                 internal readonly Weapon ironSword = new Weapon
                     (
@@ -34,12 +58,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 70,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                            0,
-                            0,
-                            0
-                    }
+                    slots: slots[0]
                     );
 
                 //Iron Sword+
@@ -52,12 +71,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 80,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                            0,
-                            0,
-                            0
-                    }
+                    slots: slots[0]
                     );
 
                 //Buster Sword
@@ -70,12 +84,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 90,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Buster Sword+
@@ -88,12 +97,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 110,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Buster Blade
@@ -106,12 +110,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 130,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Ravager Blade
@@ -124,12 +123,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 12,
                     affinity: 5,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Ravager Blade+
@@ -142,12 +136,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 16,
                     affinity: 10,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Lacerator Blade
@@ -160,12 +149,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 220,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Devastator Blade
@@ -178,12 +162,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 250,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Chrome Razor
@@ -196,12 +175,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Chrome Quietus
@@ -214,12 +188,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Brazenwall
@@ -232,12 +201,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 20,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Crimsonwall
@@ -250,12 +214,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 25,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Cragscliff
@@ -268,12 +227,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 270,
                     defense: 31,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Goliath's Scream
@@ -286,12 +240,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 300,
                     defense: 35,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Hidden Blade
@@ -304,12 +253,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 25,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Dark of Night
@@ -322,12 +266,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 30,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Avidya Great Sword
@@ -340,12 +279,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 40,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Type 41 Wyvernator
@@ -358,12 +292,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 5,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Remalgalypse
@@ -376,12 +305,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 10,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Remalgagorgon
@@ -394,12 +318,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 220,
                     defense: 15,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Rugged Great Sword
@@ -412,12 +331,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 110,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Chieftain's Grt Swd
@@ -430,12 +344,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 120,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //High Chief's Grt Swd
@@ -448,12 +357,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Lagiacrus Blade
@@ -466,12 +370,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 130,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Lagiacrus Blade+
@@ -484,12 +383,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //High Lagia Blade
@@ -502,12 +396,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Lagia Lightning
@@ -520,12 +409,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Lagia Wildfire
@@ -538,12 +422,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Neo Lagia Blade
@@ -556,12 +435,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Lagia Fulmination
@@ -574,12 +448,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 260,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Usurper's Storm
@@ -592,12 +461,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Despot's Blackstorm
@@ -610,12 +474,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Oppressor's Forger
@@ -628,12 +487,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Orcus Tonitrus
@@ -646,12 +500,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Nether Great Sword
@@ -664,12 +513,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Nether Lufactrus
@@ -682,12 +526,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Brimstren Drakepride
@@ -700,12 +539,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Stygian Acedia
@@ -718,12 +552,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 260,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Carapace Sword
@@ -736,12 +565,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 120,
                     defense: 0,
                     affinity: -30,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Carapace Blade
@@ -754,12 +578,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 0,
                     affinity: -30,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Barroth Smasher
@@ -772,12 +591,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 170,
                     defense: 0,
                     affinity: -25,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Aurora Blade
@@ -790,12 +604,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: -20,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Northern Lights
@@ -808,12 +617,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: -15,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Northern Cross
@@ -826,12 +630,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: -10,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Viking Hornsword
@@ -844,12 +643,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Ancharius Sword
@@ -862,12 +656,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Excalius Sword
@@ -880,12 +669,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Bone Blade
@@ -898,12 +682,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 80,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Bone Blade+
@@ -916,12 +695,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 90,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Jawblade
@@ -934,12 +708,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 110,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Giant Jawblade
@@ -952,12 +721,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 120,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Red Wing
@@ -970,12 +734,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Rathalos Firesword
@@ -988,12 +747,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Rathalos Flamesword
@@ -1006,12 +760,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Blue Wing
@@ -1024,12 +773,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Rathalos Glinsword
@@ -1042,12 +786,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Rathalos Gleamsword
@@ -1060,12 +799,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 260,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Dios Blade
@@ -1078,12 +812,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Dios Blade+
@@ -1096,12 +825,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Demolition Sword
@@ -1114,12 +838,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Myxo Demolisher
@@ -1132,12 +851,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 260,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Valkyrie Blade
@@ -1150,12 +864,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Sieglinde
@@ -1168,12 +877,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //High Sieglinde
@@ -1186,12 +890,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Titania
@@ -1204,12 +903,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Blushing Dame
@@ -1222,12 +916,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Ljósálfar
@@ -1240,12 +929,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 220,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Brünnhilde
@@ -1258,12 +942,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 250,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Siegmund
@@ -1276,12 +955,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 15,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //High Siegmund
@@ -1294,12 +968,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 20,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Reddnaught
@@ -1312,12 +981,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 25,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Auberon
@@ -1330,12 +994,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 5,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Pale Kaiser
@@ -1348,12 +1007,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 250,
                     defense: 0,
                     affinity: 15,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Golem Blade
@@ -1366,12 +1020,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Blade of Talos
@@ -1384,12 +1033,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Blade of Tartarus
@@ -1402,12 +1046,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 280,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Wyvern Jawblade
@@ -1420,12 +1059,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 10,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Quarrel Hornsword
@@ -1438,12 +1072,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 12,
                     affinity: -5,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Quarrel Hornsword+
@@ -1456,12 +1085,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 15,
                     affinity: -5,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots [0]
                     );
 
                 //Doublie Diablos
@@ -1474,12 +1098,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 18,
                     affinity: -10,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Cera Cigil
@@ -1492,12 +1111,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 290,
                     defense: 21,
                     affinity: -20,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Cera Cymmetry
@@ -1510,12 +1124,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 310,
                     defense: 24,
                     affinity: -20,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Ludroth Bone Sword
@@ -1528,12 +1137,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 110,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Cataclysm Sword
@@ -1546,12 +1150,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 130,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Cataclysm Blade
@@ -1564,12 +1163,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Icicle Fang
@@ -1582,12 +1176,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 10,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Icicle Fang+
@@ -1600,12 +1189,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 0,
                     affinity: 15,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Paladire
@@ -1618,12 +1202,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 20,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Galespike
@@ -1636,12 +1215,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 20,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Simoom Sandbarb
@@ -1654,12 +1228,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 25,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Simoom Sandbitter
@@ -1672,12 +1241,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 35,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Finblade
@@ -1690,12 +1254,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 170,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Plesioth Watercutter
@@ -1708,12 +1267,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Plesioth Aquablade
@@ -1726,12 +1280,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 260,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Plesioth Lullaby
@@ -1744,12 +1293,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Plesioth Lullabane
@@ -1762,12 +1306,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Frozen Speartuna
@@ -1780,12 +1319,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Freezer Speartuna
@@ -1798,12 +1332,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 170,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Xiphias Gladius
@@ -1816,12 +1345,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Vulcanis
@@ -1834,12 +1358,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 130,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Vulcanis+
@@ -1852,12 +1371,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Vulcanvil
@@ -1870,12 +1384,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 160,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Vulcamagnon
@@ -1888,12 +1397,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 170,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Vulcatastrophe
@@ -1906,12 +1410,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Vulca Vendetta
@@ -1924,12 +1423,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        1
-                    }
+                    slots: slots[3]
                     );
 
                 //Rusted Great Sword
@@ -1942,12 +1436,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 100,
                     defense: 0,
                     affinity: -70,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Tarnished Great Swd
@@ -1960,12 +1449,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 100,
                     defense: 0,
                     affinity: -70,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Ancient Blade
@@ -1978,12 +1462,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Elder Monument
@@ -1996,12 +1475,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 170,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Eternal Glyph
@@ -2014,12 +1488,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Wyvern's Perch
@@ -2032,12 +1501,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 120,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Roguish Deathcap
@@ -2050,12 +1514,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 150,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Lordly Deathcap
@@ -2068,12 +1527,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 190,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Houma no Tsurugi
@@ -2086,12 +1540,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 140,
                     defense: 8,
                     affinity: 10,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Tenma no Tsurugi
@@ -2104,12 +1553,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 10,
                     affinity: 15,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Berserker Sword
@@ -2122,12 +1566,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Anguish
@@ -2140,12 +1579,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 260,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Nero's Anguish
@@ -2158,12 +1592,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 290,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Lion's Bane
@@ -2176,12 +1605,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Alatreon Great Sword
@@ -2194,12 +1618,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 180,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Alatreon Revolution
@@ -2212,12 +1631,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 220,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Altheos Evolutia
@@ -2230,12 +1644,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 250,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Amethyst Blade
@@ -2248,12 +1657,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Maismethyst
@@ -2266,12 +1670,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Anima Reaper
@@ -2284,12 +1683,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 230,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        1,
-                        0
-                    }
+                    slots: slots[2]
                     );
 
                 //Eisenfaust
@@ -2302,12 +1696,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 300,
                     defense: 0,
                     affinity: -50,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Worn Great Sword
@@ -2320,12 +1709,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 100,
                     defense: 0,
                     affinity: -70,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Weathered Great Swd
@@ -2338,12 +1722,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 110,
                     defense: 0,
                     affinity: -70,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //Epitaph Blade
@@ -2356,12 +1735,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 200,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Epitaph Eternal
@@ -2374,12 +1748,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Eclipse Blade
@@ -2392,12 +1761,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 220,
                     defense: 0,
                     affinity: 20,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Merak's Asterism
@@ -2410,12 +1774,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 240,
                     defense: 0,
                     affinity: 30,
-                    slots: new int[3]
-                    {
-                        1,
-                        0,
-                        0
-                    }
+                    slots: slots[1]
                     );
 
                 //Megiddo Blaze
@@ -2428,12 +1787,7 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 210,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
 
                 //The Depotheosis
@@ -2446,14 +1800,14 @@ namespace MH_Database.Ressources.Items_Data
                     true_attack: 220,
                     defense: 0,
                     affinity: 0,
-                    slots: new int[3]
-                    {
-                        0,
-                        0,
-                        0
-                    }
+                    slots: slots[0]
                     );
-                internal Weapon[] listAll()
+
+                ////////////////////
+                // Side functions //
+                ////////////////////
+
+                internal Weapon[] listAll() //Return all MH3U Greatswords as a whole so that it can be used later when displaying them as a list
                 {
                     Weapon[] all =
                     {

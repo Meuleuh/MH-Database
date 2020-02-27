@@ -24,17 +24,7 @@ namespace MH_Database.Classes.Containers
         //internal JewelCraft[] jewelCraft; //Will be added with the JewelCraft Class used to store the jewels being crafted, the amount needed for crafting it and the craft (for having contextual window displaying the whole craft on hover)
         //internal ComboCraft[] possibleCombo; //Will be added with the ComboCraft Class used to store the combo possible using this item
 
-        internal Item(MultiLangItem name, MultiLangDescription description, Rarity rarity, int maxCarryAmount, int sellValue)
-        {
-            this.name = name;
-            this.description = description;
-            this.rarity = rarity;
-            this.maxCarryAmount = maxCarryAmount;
-            this.sellValue = sellValue;
-            this.buyValue = -1;
-        } //If the item can't be bought
-
-        internal Item(MultiLangItem name, MultiLangDescription description, Rarity rarity, int maxCarryAmount, int sellValue, int buyValue)
+        internal Item(MultiLangItem name, MultiLangDescription description, Rarity rarity, int maxCarryAmount, int sellValue, int buyValue = -1)
         {
             this.name = name;
             this.description = description;
@@ -42,6 +32,6 @@ namespace MH_Database.Classes.Containers
             this.maxCarryAmount = maxCarryAmount;
             this.sellValue = sellValue;
             this.buyValue = buyValue;
-        } //If the item can be bought
+        } //If the item can be bought, the buyValue must be set in order to be marked as so, otherwise, -1 means it can't be bought
     }
 }
