@@ -1949,6 +1949,19 @@ namespace MH_Database.Ressources.Items_Data
                     };
                     return all;
                 }
+
+                internal Weapon[] displayOrder(int displayOrder) //As to be worked on
+                {
+                    Weapon[] all = listAll();
+
+                    switch(displayOrder)
+                    {
+                        case 0:
+
+                            break;
+                    }
+                    return all;
+                }
             }
         }
     }

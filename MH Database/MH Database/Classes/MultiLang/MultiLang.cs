@@ -4,6 +4,7 @@
     {
         internal string fr = "\0";
         internal string en = "\0";
+        internal string actual = "\0";  //Must always be set to something in order for text to be displayed
         //Manipulating language procedure - Note 1
 
         internal MultiLang()
@@ -27,6 +28,17 @@
         {
             this.fr = fr;
             this.en = en;
+        }
+        internal void ChangeActual(string actual)
+        {
+            if (actual == "fr")
+            {
+                this.actual = fr;
+            }
+            else if (actual == "en")
+            {
+                this.actual = en;
+            }
         }
     }
 }

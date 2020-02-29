@@ -1,12 +1,11 @@
 ﻿using MH_Database.Classes.Elements;
-using MH_Database.Classes.MultiLang;
 
 namespace MH_Database.Classes.Containers
 {
     class Item
     {
-        internal MultiLangItem name;
-        internal MultiLangDescription description;
+        internal MultiLang.MultiLang name;
+        internal MultiLang.MultiLang description;
         internal Rarity rarity;
         internal int maxCarryAmount;
         internal int sellValue;
@@ -24,7 +23,7 @@ namespace MH_Database.Classes.Containers
         //internal JewelCraft[] jewelCraft; //Will be added with the JewelCraft Class used to store the jewels being crafted, the amount needed for crafting it and the craft (for having contextual window displaying the whole craft on hover)
         //internal ComboCraft[] possibleCombo; //Will be added with the ComboCraft Class used to store the combo possible using this item
 
-        internal Item(MultiLangItem name, MultiLangDescription description, Rarity rarity, int maxCarryAmount, int sellValue, int buyValue = -1)
+        internal Item(MultiLang.MultiLang name, MultiLang.MultiLang description, Rarity rarity, int maxCarryAmount, int sellValue, int buyValue = -1)
         {
             this.name = name;
             this.description = description;

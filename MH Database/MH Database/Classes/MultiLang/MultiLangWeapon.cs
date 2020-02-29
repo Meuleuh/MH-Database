@@ -2,8 +2,7 @@
 {
     class MultiLangWeapon
     {
-        internal string[] fr = new string[15];
-        internal string[] en = new string[15];
+        internal MultiLang[] names = new MultiLang[15];
         //Manipulating language procedure - Note 1
 
         internal MultiLangWeapon()
@@ -24,56 +23,33 @@
         }
         internal void ChangeNames(string allLangTier) //Manipulating language procedure - Note 5
         {
-            for (int i = 0; i < fr.Length; i++)
+            for (int i = 0; i < names.Length; i++)
             {
-                fr[i] = allLangTier;
-            }
-            for (int i = 0; i < fr.Length; i++)
-            {
-                en[i] = allLangTier;
+                names[i].ChangeNames(allLangTier);
             }
         }
         internal void ChangeNames(string frAllTier, string enAllTier) //Manipulating language procedure - Note 6
         {
-            for (int i = 0; i < fr.Length; i++)
+            for (int i = 0; i < names.Length; i++)
             {
-                fr[i] = frAllTier;
-            }
-            for (int i = 0; i < fr.Length; i++)
-            {
-                en[i] = enAllTier;
+                names[i].ChangeNames(frAllTier, enAllTier);
             }
         }
         internal void ChangeNames(string[] frTiers, string[] enTiers, int[] tiersLimitLevels) //Manipulating language procedure - Note 7
         {
-            for (int i = 0; i + 1 < fr.Length; i++)
+            for (int i = 0; i + 1 < names.Length; i++)
             {
                 if (i < tiersLimitLevels[0])
                 {
-                    fr[i] = frTiers[0];
+                    names[i].ChangeNames(frTiers[0], enTiers[0]);
                 }
                 else if (i < tiersLimitLevels[1])
                 {
-                    fr[i] = frTiers[1];
+                    names[i].ChangeNames(frTiers[1], enTiers[1]);
                 }
                 else
                 {
-                    fr[i] = frTiers[2];
-                }
-            }
-            for (int i = 0; i + 1 < en.Length; i++)
-            {
-                if (i < tiersLimitLevels[0])
-                {
-                    en[i] = enTiers[0];
-                }
-                else if (i < tiersLimitLevels[1])
-                {
-                    en[i] = enTiers[1];
-                }
-                else
-                {
-                    en[i] = enTiers[2];
+                    names[i].ChangeNames(frTiers[2], enTiers[2]);
                 }
             }
         }

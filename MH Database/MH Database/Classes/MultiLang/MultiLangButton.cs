@@ -29,14 +29,8 @@ namespace MH_Database.Classes.MultiLang
         }
         internal void DisplayLang(string langToDisplay) //Manipulating language procedure - Note 2
         {
-            if (langToDisplay == "fr")
-            {
-                linkedButton.Text = displayText.fr;
-            }
-            else if (langToDisplay == "en")
-            {
-                linkedButton.Text = displayText.en;
-            }
+                displayText.ChangeActual(langToDisplay);
+                linkedButton.Text = displayText.actual;
         }
     }
 }
