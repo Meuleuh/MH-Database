@@ -1950,15 +1950,23 @@ namespace MH_Database.Ressources.Items_Data
                     return all;
                 }
 
-                internal Weapon[] displayOrder(int displayOrder) //As to be worked on
+                internal Weapon[] displayOrder(int displayOrder) //In progress
                 {
                     Weapon[] all = listAll();
-
-                    switch(displayOrder)
+                    for (int x = 0; x < all.Length; x++)
                     {
-                        case 0:
+                        for (int y = x + 1; y < all.Length; y++)
+                        {
+                            switch(displayOrder)
+                            {
+                                case 0:
+                                    if (all[x].name.names[0].actual[0] < all[x].name.names[0].actual[0])
+                                    {
 
-                            break;
+                                    }
+                                    break;
+                            }
+                        }
                     }
                     return all;
                 }

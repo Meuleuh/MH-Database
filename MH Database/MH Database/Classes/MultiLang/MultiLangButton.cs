@@ -2,35 +2,30 @@
 
 namespace MH_Database.Classes.MultiLang
 {
-    class MultiLangButton
+    class MultiLangButton : Button
     {
         internal MultiLang displayText = new MultiLang();
-        internal Button linkedButton = null;
-        internal MultiLangButton(Button button)
+        internal MultiLangButton()
         {
-            linkedButton = button;
             displayText.ChangeNames("#_MISSING_TRANSLATION_#");
         }
-        internal MultiLangButton(Button button, string everyLang)
+        internal MultiLangButton(string everyLang)
         {
-            linkedButton = button;
             displayText.ChangeNames(everyLang);
         }
-        internal MultiLangButton(Button button, string fr, string en) //Manipulating language procedure - Note 1
+        internal MultiLangButton(string fr, string en) //Manipulating language procedure - Note 1
         {
-            linkedButton = button;
             displayText.fr = fr;
             displayText.en = en;
         }
-        internal MultiLangButton(Button button, MultiLang multiLang)
+        internal MultiLangButton(MultiLang multiLang)
         {
-            linkedButton = button;
             displayText = multiLang;
         }
         internal void DisplayLang(string langToDisplay) //Manipulating language procedure - Note 2
         {
                 displayText.ChangeActual(langToDisplay);
-                linkedButton.Text = displayText.actual;
+                Text = displayText.actual;
         }
     }
 }

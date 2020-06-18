@@ -10,6 +10,7 @@ namespace MH_Database.Classes.Containers
         internal int maxCarryAmount;
         internal int sellValue;
         internal int buyValue;
+
         //The followings will also be used as link to the page of the monster / quest / map / combo materials pages / weapon / armor / jewel / combo other material and result
         //All of the following should be rethinked before being implemented, some could only be some list, making them easier to implement
         //Obtaining
