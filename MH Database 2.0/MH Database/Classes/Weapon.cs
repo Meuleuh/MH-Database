@@ -38,6 +38,12 @@ namespace MH_Database.Classes
         {
             int quantity;
             Item item;
+
+            Material(int quantity, Item item)
+            {
+                this.quantity = quantity;
+                this.item = item;
+            }
         }
 
         //Variables
